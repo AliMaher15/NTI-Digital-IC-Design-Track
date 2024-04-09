@@ -1,5 +1,0 @@
-MODULE top_module_sch
-	SUBMODULE and_gate
-		INSTANCE XLXI_1
-	SUBMODULE not_gate
-		INSTANCE XLXI_2

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Mar 05 11:38:13 2024
+# Process ID: 2700
+# Log file: G:/ise_proj/prj2/planAhead_run_4/planAhead.log
+# Journal file: G:/ise_proj/prj2/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source G:/ise_proj/prj2/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property pulltype PULLDOWN [get_ports [list rst]]
+save_constraints

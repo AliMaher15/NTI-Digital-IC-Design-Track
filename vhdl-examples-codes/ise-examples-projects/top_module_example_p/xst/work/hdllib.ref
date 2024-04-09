@@ -1,6 +1,0 @@
-EN top_module_sch NULL D:/ali_maher/vhdl/ise_projects/top_module_example_p/top_module_sch.vhf sub00/vhpl04 1710752275
-EN not_gate NULL D:/ali_maher/vhdl/ise_projects/top_module_example_p/not_gate.vhd sub00/vhpl02 1710752273
-AR top_module_sch behavioral D:/ali_maher/vhdl/ise_projects/top_module_example_p/top_module_sch.vhf sub00/vhpl05 1710752276
-AR not_gate behavior1 D:/ali_maher/vhdl/ise_projects/top_module_example_p/not_gate.vhd sub00/vhpl03 1710752274
-AR and_gate behavior1 D:/ali_maher/vhdl/ise_projects/top_module_example_p/and_gate.vhd sub00/vhpl01 1710752272
-EN and_gate NULL D:/ali_maher/vhdl/ise_projects/top_module_example_p/and_gate.vhd sub00/vhpl00 1710752271

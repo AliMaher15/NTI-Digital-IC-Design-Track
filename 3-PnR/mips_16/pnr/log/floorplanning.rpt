@@ -1,0 +1,28 @@
+0 pads are constrained in TDF table
+There are 0 IO pads 0 corner pads in total
+Start to create wire tracks ...
+Warning: Pin constraints not found for top block.  Default pin constraints are saved. (FPHSM-0010)
+Warning: Cell instance U176 is not completely placed inside top block mips_16 (FPHSM-1800)
+Warning: Current cell: cell placement is incomplete and will be ignored (FPHSM-1829)
+Number of terminals created: 34.
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Name      Original Ports
+mips_16               34
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Completed pin assignment.
+Elapsed =    0:00:00, CPU =    0:00:00
+Planner Summary:
+This floorplan is created by using tile name (unit).
+	Row Direction = HORIZONTAL
+	Control Parameter =  Aspect Ratio
+	Core Utilization = 0.401
+	Number Of Rows = 216
+	Core Width = 303.05
+	Core Height = 302.4
+	Aspect Ratio = 0.998
+	Double Back ON
+	Flip First Row = YES
+	Start From First Row = YES
+Planner run through successfully.
+No ignored layers specified.
+Warning: The design has already been assigned layer constraints and we will overwrite the constraints. (RT-064)

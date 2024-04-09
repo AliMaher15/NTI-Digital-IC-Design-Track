@@ -1,0 +1,35 @@
+****************************************
+Report : constraint
+	-all_violators
+	-path slack_only
+Design : mips_16
+Version: G-2012.06-SP2
+Date   : Fri Apr  6 11:57:42 2018
+****************************************
+
+
+
+   min_delay/hold ('clk' group)
+
+   Endpoint                                                  Slack
+   -----------------------------------------------------------------
+   pc_current_reg_2_/D                                     -0.0611  (VIOLATED)
+   pc_current_reg_8_/D                                     -0.0606  (VIOLATED)
+   pc_current_reg_13_/D                                    -0.0589  (VIOLATED)
+   pc_current_reg_14_/D                                    -0.0586  (VIOLATED)
+   pc_current_reg_5_/D                                     -0.0565  (VIOLATED)
+   pc_current_reg_0_/D                                     -0.0555  (VIOLATED)
+   pc_current_reg_15_/D                                    -0.0550  (VIOLATED)
+   pc_current_reg_12_/D                                    -0.0544  (VIOLATED)
+   pc_current_reg_4_/D                                     -0.0538  (VIOLATED)
+   pc_current_reg_7_/D                                     -0.0530  (VIOLATED)
+   pc_current_reg_1_/D                                     -0.0526  (VIOLATED)
+   pc_current_reg_11_/D                                    -0.0524  (VIOLATED)
+   pc_current_reg_3_/D                                     -0.0496  (VIOLATED)
+   pc_current_reg_6_/D                                     -0.0489  (VIOLATED)
+   pc_current_reg_9_/D                                     -0.0476  (VIOLATED)
+   pc_current_reg_10_/D                                    -0.0473  (VIOLATED)
+
+
+
+1

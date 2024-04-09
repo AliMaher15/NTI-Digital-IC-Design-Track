@@ -1,0 +1,409 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: leds_left_right.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "leds_left_right.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "leds_left_right"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : leds_left_right
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "G:/ise_proj/ali_shift_leds/leds_left_right.vhd" in Library work.
+Entity <leds_left_right> compiled.
+Entity <leds_left_right> (Architecture <behavior1>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <leds_left_right> in library <work> (architecture <behavior1>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <leds_left_right> in library <work> (Architecture <behavior1>).
+Entity <leds_left_right> analyzed. Unit <leds_left_right> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <leds_left_right>.
+    Related source file is "G:/ise_proj/ali_shift_leds/leds_left_right.vhd".
+    Found 32-bit register for signal <count>.
+    Found 32-bit adder for signal <count$add0000> created at line 25.
+    Found 32-bit 4-to-1 multiplexer for signal <count$mux0001> created at line 29.
+    Found 4-bit register for signal <D>.
+    Found 32-bit comparator greatequal for signal <D_0$cmp_ge0000> created at line 34.
+    Found 32-bit comparator greatequal for signal <D_0$cmp_ge0001> created at line 29.
+    Found 32-bit comparator less for signal <D_0$cmp_lt0000> created at line 34.
+    Found 32-bit comparator less for signal <D_0$cmp_lt0001> created at line 29.
+    Found 32-bit register for signal <direction>.
+    Found 32-bit adder for signal <direction$addsub0000> created at line 27.
+    Summary:
+	inferred  68 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred   4 Comparator(s).
+	inferred  32 Multiplexer(s).
+Unit <leds_left_right> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 2
+# Registers                                            : 6
+ 1-bit register                                        : 4
+ 32-bit register                                       : 2
+# Comparators                                          : 4
+ 32-bit comparator greatequal                          : 2
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 32-bit adder                                          : 2
+# Registers                                            : 68
+ Flip-Flops                                            : 68
+# Comparators                                          : 4
+ 32-bit comparator greatequal                          : 2
+ 32-bit comparator less                                : 2
+# Multiplexers                                         : 1
+ 32-bit 4-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <leds_left_right> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block leds_left_right, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 68
+ Flip-Flops                                            : 68
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : leds_left_right.ngr
+Top Level Output File Name         : leds_left_right
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 382
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 61
+#      LUT2                        : 27
+#      LUT3                        : 22
+#      LUT3_D                      : 3
+#      LUT4                        : 80
+#      LUT4_D                      : 4
+#      MUXCY                       : 104
+#      MUXF5                       : 12
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 68
+#      FDC                         : 35
+#      FDCE                        : 32
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 1
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      106  out of   4656     2%  
+ Number of Slice Flip Flops:             68  out of   9312     0%  
+ Number of 4 input LUTs:                200  out of   9312     2%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    232     2%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 68    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 68    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 14.969ns (Maximum Frequency: 66.805MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 14.969ns (frequency: 66.805MHz)
+  Total number of paths / destination ports: 835364 / 101
+-------------------------------------------------------------------------
+Delay:               14.969ns (Levels of Logic = 41)
+  Source:            count_1 (FF)
+  Destination:       count_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: count_1 to count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.591   0.595  count_1 (count_1)
+     LUT1:I0->O            1   0.704   0.000  Madd_count_add0000_cy<1>_rt (Madd_count_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Madd_count_add0000_cy<1> (Madd_count_add0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<2> (Madd_count_add0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<3> (Madd_count_add0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<4> (Madd_count_add0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<5> (Madd_count_add0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<6> (Madd_count_add0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<7> (Madd_count_add0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<8> (Madd_count_add0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<9> (Madd_count_add0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<10> (Madd_count_add0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<11> (Madd_count_add0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<12> (Madd_count_add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<13> (Madd_count_add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<14> (Madd_count_add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<15> (Madd_count_add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<16> (Madd_count_add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<17> (Madd_count_add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<18> (Madd_count_add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<19> (Madd_count_add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<20> (Madd_count_add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<21> (Madd_count_add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<22> (Madd_count_add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  Madd_count_add0000_cy<23> (Madd_count_add0000_cy<23>)
+     XORCY:CI->O           2   0.804   0.482  Madd_count_add0000_xor<24> (count_add0000<24>)
+     LUT4:I2->O            1   0.704   0.000  direction_and00003_wg_lut<0> (direction_and00003_wg_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  direction_and00003_wg_cy<0> (direction_and00003_wg_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  direction_and00003_wg_cy<1> (direction_and00003_wg_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  direction_and00003_wg_cy<2> (direction_and00003_wg_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  direction_and00003_wg_cy<3> (direction_and00003_wg_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  direction_and00003_wg_cy<4> (direction_and00003_wg_cy<4>)
+     MUXCY:CI->O           3   0.459   0.566  direction_and00003_wg_cy<5> (direction_and00003_wg_cy<5>)
+     LUT3:I2->O           44   0.704   1.270  direction_and00003_wg_cy<7>1_2 (direction_and00003_wg_cy<7>1_1)
+     LUT4:I3->O            1   0.704   0.000  Mcompar_D_0_cmp_ge0001_lut<4>2 (Mcompar_D_0_cmp_ge0001_lut<4>2)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_D_0_cmp_ge0001_cy<4>_1 (Mcompar_D_0_cmp_ge0001_cy<4>2)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_D_0_cmp_ge0001_cy<5>_1 (Mcompar_D_0_cmp_ge0001_cy<5>2)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_D_0_cmp_ge0001_cy<6>_1 (Mcompar_D_0_cmp_ge0001_cy<6>2)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_D_0_cmp_ge0001_cy<7>_1 (Mcompar_D_0_cmp_ge0001_cy<7>2)
+     MUXCY:CI->O          15   0.459   1.096  Mcompar_D_0_cmp_ge0001_cy<8>_1 (Mcompar_D_0_cmp_ge0001_cy<8>1)
+     LUT4_D:I1->O         11   0.704   1.012  count_mux0003<11>11 (N01)
+     LUT2:I1->O            1   0.704   0.000  count_mux0003<25>1 (count_mux0003<25>)
+     FDC:D                     0.308          count_6
+    ----------------------------------------
+    Total                     14.969ns (9.948ns logic, 5.021ns route)
+                                       (66.5% logic, 33.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            D_3 (FF)
+  Destination:       Q<3> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: D_3 to Q<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.591   0.531  D_3 (D_3)
+     OBUF:I->O                 3.272          Q_3_OBUF (Q<3>)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.01 secs
+ 
+--> 
+
+Total memory usage is 4503064 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

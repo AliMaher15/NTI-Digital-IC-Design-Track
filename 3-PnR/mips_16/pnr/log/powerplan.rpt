@@ -1,0 +1,674 @@
+Information: connected 18810 power ports and 18810 ground ports
+Geometry mapping begins.
+Removing all the files with the prefix mips_16 in the directory ./pna_output
+Parasitics Operating Condition is max
+
+TLU+ File = /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/tech/rcxt/FreePDK45_10m_Cmax.tlup
+TLU+ File = /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/tech/rcxt/FreePDK45_10m_Cmin.tlup
+
+--------- Sanity Check on TLUPlus Files -------------
+1. Checking the conducting layer names in ITF and mapping file ... 
+[ Passed! ]
+2. Checking the via layer names in ITF and mapping file ... 
+[ Passed! ]
+3. Checking the consistency of Min Width and Min Spacing between MW-tech and ITF ... 
+[ Passed! ]
+----------------- Check Ends ------------------
+TLU+ based extraction:
+Resistance based on max model.
+Using operating temperature of 125.00 degree Celsius.
+EKL: layer 1, width 0.650 > max tlu+ tab range
+EKL: layer 1, width 0.650 > max tlu+ tab range
+EKL: layer 2, width 0.700 > max tlu+ tab range
+EKL: layer 2, width 0.700 > max tlu+ tab range
+EKL: layer 3, width 0.700 > max tlu+ tab range
+Getting the info of via resistance from TLU+ model
+via resistance of default area is used for layer 20
+via resistance of default area is used for layer 20
+lower mask id 1, upper mask id 2, via layer 12, resistivity 6.000000
+via resistance of default area is used for layer 21
+lower mask id 2, upper mask id 3, via layer 14, resistivity 5.000000
+lower mask id 3, upper mask id 4, via layer 16, resistivity 5.000000
+lower mask id 4, upper mask id 5, via layer 18, resistivity 3.000000
+lower mask id 5, upper mask id 6, via layer 20, resistivity 3.000000
+lower mask id 6, upper mask id 7, via layer 22, resistivity 3.000000
+lower mask id 7, upper mask id 8, via layer 24, resistivity 1.000000
+lower mask id 8, upper mask id 9, via layer 26, resistivity 1.000000
+lower mask id 9, upper mask id 10, via layer 28, resistivity 0.500000
+EKL: max metal layer: 10  max back metal layer: 0
+Ignoring all CONN views
+Number of pad instances: 0
+Geometry mapping took     0.06 seconds
+
+Name of design : mips_16
+Number of cell instance masters in the library : 35
+Number of cell instances in the design : 18810
+Power Network Synthesis Begins ...
+Target IR drop : 22.000 mV
+Processing net VDD ...
+Average power dissipation in mips_16 :   500.00 mW
+Power supply voltage :     1.10 V
+Average current in mips_16 :   454.55 mA
+Total power of the unplaced cells : 	 500.000 mW
+25 percent of initial power plan synthesis is done.
+50 percent of initial power plan synthesis is done.
+75 percent of initial power plan synthesis is done.
+100 percent of initial power plan synthesis is done.
+Performing Wire Cutting and Resizing of net VDD for Honoring Blockage Constraints
+Processing 25x25 straps
+Warning: The specified ring spacing is less than the minimum spacing of 0.800 microns. (PNA-110)
+PNS uses the required minimum ring spacing for horizontal wires
+Warning: The specified ring spacing is less than the minimum spacing of 0.800 microns. (PNA-110)
+PNS uses the required minimum ring spacing for vertical wires
+Warning: Virtual pad at (340.0000 0.0000) for net VDD cannot be used. (PNA-116)
+Warning: Virtual pad at (340.0000 327.2000) for net VDD cannot be used. (PNA-116)
+Number of power pads reaching to the power ports of the leaf cells or blocks: 30
+Total assigned virtual connection port current is 454.545445
+Total assigned connected port current is 0.000000
+Total assigned current is 454.545445
+Total floating virtual connection port current is 0.000000
+Total floating connected port current is 0.000000
+Simulation begin ...
+Virtual Pad at (140.0000 0.0000) layer metal10 Supplies   18.86 mA Current (4.15%)
+Virtual Pad at (140.0000 327.2000) layer metal10 Supplies   18.28 mA Current (4.02%)
+Virtual Pad at (220.0000 0.0000) layer metal10 Supplies   18.11 mA Current (3.98%)
+Virtual Pad at (180.0000 0.0000) layer metal10 Supplies   18.01 mA Current (3.96%)
+Virtual Pad at (180.0000 327.2000) layer metal10 Supplies   17.48 mA Current (3.85%)
+Virtual Pad at (220.0000 327.2000) layer metal10 Supplies   17.38 mA Current (3.82%)
+Virtual Pad at (0.0000 140.0000) layer metal9 Supplies   17.25 mA Current (3.80%)
+Virtual Pad at (0.0000 180.0000) layer metal9 Supplies   17.03 mA Current (3.75%)
+Virtual Pad at (327.8500 140.0000) layer metal9 Supplies   16.94 mA Current (3.73%)
+Virtual Pad at (100.0000 0.0000) layer metal10 Supplies   16.92 mA Current (3.72%)
+Virtual Pad at (327.8500 180.0000) layer metal9 Supplies   16.72 mA Current (3.68%)
+Virtual Pad at (0.0000 220.0000) layer metal9 Supplies   16.29 mA Current (3.58%)
+Virtual Pad at (100.0000 327.2000) layer metal10 Supplies   16.23 mA Current (3.57%)
+Virtual Pad at (0.0000 100.0000) layer metal9 Supplies   16.02 mA Current (3.53%)
+Virtual Pad at (327.8500 220.0000) layer metal9 Supplies   15.98 mA Current (3.52%)
+Virtual Pad at (327.8500 100.0000) layer metal9 Supplies   15.77 mA Current (3.47%)
+Virtual Pad at (0.0000 60.0000) layer metal9 Supplies   15.47 mA Current (3.40%)
+Virtual Pad at (327.8500 60.0000) layer metal9 Supplies   15.38 mA Current (3.38%)
+Virtual Pad at (260.0000 0.0000) layer metal10 Supplies   15.31 mA Current (3.37%)
+Virtual Pad at (60.0000 0.0000) layer metal10 Supplies   15.23 mA Current (3.35%)
+Virtual Pad at (260.0000 327.2000) layer metal10 Supplies   14.17 mA Current (3.12%)
+Virtual Pad at (60.0000 327.2000) layer metal10 Supplies   13.98 mA Current (3.08%)
+Virtual Pad at (300.0000 0.0000) layer metal10 Supplies   13.32 mA Current (2.93%)
+Virtual Pad at (0.0000 260.0000) layer metal9 Supplies   13.28 mA Current (2.92%)
+Virtual Pad at (327.8500 260.0000) layer metal9 Supplies   13.05 mA Current (2.87%)
+Virtual Pad at (20.0000 0.0000) layer metal10 Supplies   12.06 mA Current (2.65%)
+Virtual Pad at (300.0000 327.2000) layer metal10 Supplies   10.66 mA Current (2.35%)
+Virtual Pad at (327.8500 300.0000) layer metal9 Supplies   10.00 mA Current (2.20%)
+Virtual Pad at (0.0000 300.0000) layer metal9 Supplies    9.97 mA Current (2.19%)
+Virtual Pad at (20.0000 327.2000) layer metal10 Supplies    9.38 mA Current (2.06%)
+Total Current from Pad Cells:    0.00 mA (0.00%)
+Total Current from Virtual Pads:  454.55 mA (100.00%)
+Maximum IR drop in mips_16 : 5.05 mV
+Maximum current in mips_16 : 18.857 mA
+Maximum EM of wires in mips_16 : 3.771398e+01 A/cm, layer metal10
+Maximum EM of vias in mips_16 : 3.273783e+05 A/cm_square, layer via9
+The PNS synthesizes the net VDD successfully
+The maximum IR drop of the synthesized net VDD is   5.050 mV
+Processing net VSS ...
+Average power dissipation in mips_16 :   500.00 mW
+Power supply voltage :     1.10 V
+Average current in mips_16 :   454.55 mA
+Total power of the unplaced cells : 	 500.000 mW
+Performing Wire Cutting of net VSS for Honoring Blockage Constraints
+Warning: The specified ring spacing is less than the minimum spacing of 0.800 microns. (PNA-110)
+PNS uses the required minimum ring spacing for horizontal wires
+Warning: The specified ring spacing is less than the minimum spacing of 0.800 microns. (PNA-110)
+PNS uses the required minimum ring spacing for vertical wires
+Warning: Virtual pad at (0.0000 0.0000) for net VSS cannot be used. (PNA-116)
+Warning: Virtual pad at (0.0000 327.2000) for net VSS cannot be used. (PNA-116)
+Number of power pads reaching to the power ports of the leaf cells or blocks: 30
+Total assigned virtual connection port current is 454.545445
+Total assigned connected port current is 0.000000
+Total assigned current is 454.545445
+Total floating virtual connection port current is 0.000000
+Total floating connected port current is 0.000000
+Simulation begin ...
+Virtual Pad at (160.0000 327.2000) layer metal10 Supplies   18.13 mA Current (3.99%)
+Virtual Pad at (200.0000 327.2000) layer metal10 Supplies   18.06 mA Current (3.97%)
+Virtual Pad at (120.0000 327.2000) layer metal10 Supplies   17.89 mA Current (3.94%)
+Virtual Pad at (160.0000 0.0000) layer metal10 Supplies   17.69 mA Current (3.89%)
+Virtual Pad at (200.0000 0.0000) layer metal10 Supplies   17.61 mA Current (3.87%)
+Virtual Pad at (120.0000 0.0000) layer metal10 Supplies   17.40 mA Current (3.83%)
+Virtual Pad at (0.0000 200.0000) layer metal9 Supplies   16.82 mA Current (3.70%)
+Virtual Pad at (327.8500 200.0000) layer metal9 Supplies   16.79 mA Current (3.69%)
+Virtual Pad at (327.8500 160.0000) layer metal9 Supplies   16.62 mA Current (3.66%)
+Virtual Pad at (0.0000 120.0000) layer metal9 Supplies   16.61 mA Current (3.65%)
+Virtual Pad at (327.8500 120.0000) layer metal9 Supplies   16.58 mA Current (3.65%)
+Virtual Pad at (0.0000 160.0000) layer metal9 Supplies   16.58 mA Current (3.65%)
+Virtual Pad at (80.0000 327.2000) layer metal10 Supplies   16.09 mA Current (3.54%)
+Virtual Pad at (240.0000 327.2000) layer metal10 Supplies   15.88 mA Current (3.49%)
+Virtual Pad at (80.0000 0.0000) layer metal10 Supplies   15.50 mA Current (3.41%)
+Virtual Pad at (0.0000 240.0000) layer metal9 Supplies   15.47 mA Current (3.40%)
+Virtual Pad at (240.0000 0.0000) layer metal10 Supplies   15.42 mA Current (3.39%)
+Virtual Pad at (327.8500 240.0000) layer metal9 Supplies   15.16 mA Current (3.33%)
+Virtual Pad at (0.0000 80.0000) layer metal9 Supplies   14.70 mA Current (3.23%)
+Virtual Pad at (40.0000 327.2000) layer metal10 Supplies   14.62 mA Current (3.22%)
+Virtual Pad at (327.8500 80.0000) layer metal9 Supplies   14.39 mA Current (3.17%)
+Virtual Pad at (0.0000 280.0000) layer metal9 Supplies   14.31 mA Current (3.15%)
+Virtual Pad at (280.0000 327.2000) layer metal10 Supplies   14.17 mA Current (3.12%)
+Virtual Pad at (40.0000 0.0000) layer metal10 Supplies   13.68 mA Current (3.01%)
+Virtual Pad at (280.0000 0.0000) layer metal10 Supplies   13.52 mA Current (2.97%)
+Virtual Pad at (0.0000 40.0000) layer metal9 Supplies   13.07 mA Current (2.88%)
+Virtual Pad at (327.8500 280.0000) layer metal9 Supplies   13.06 mA Current (2.87%)
+Virtual Pad at (327.8500 40.0000) layer metal9 Supplies   11.75 mA Current (2.59%)
+Virtual Pad at (320.0000 327.2000) layer metal10 Supplies    8.91 mA Current (1.96%)
+Virtual Pad at (320.0000 0.0000) layer metal10 Supplies    8.07 mA Current (1.78%)
+Total Current from Pad Cells:    0.00 mA (0.00%)
+Total Current from Virtual Pads:  454.55 mA (100.00%)
+Maximum IR drop in mips_16 : 5.40 mV
+Maximum current in mips_16 : 18.125 mA
+Maximum EM of wires in mips_16 : 3.625096e+01 A/cm, layer metal10
+Maximum EM of vias in mips_16 : 3.146784e+05 A/cm_square, layer via9
+The PPS synthesizes the net VSS successfully
+The maximum IR drop of the synthesized net VSS is   5.397
+
+The statistics of PNS results
+Global Constraints Setting
+Remove Floating Segments:	On
+Use Stack Via:			On
+Same PG Width Sizing:		On
+Optimize Track Usage:		Off
+Keep Ring Outside Core Area:	Off
+No Straps Over Hard Macros:	Off
+No Straps Over Plan Groups:	Off
+No Straps Over Soft Macros:	Off
+Ignore Blockage:		Off
+Target IR drop :   22.00 mV
+Net name : VDD
+IR drop of the synthesized net :    5.05 mV
+Core ring segment: Horizontal: metal9, Width: 5.0000 microns
+Core ring segment: Vertical: metal10, Width: 5.0000 microns
+Layer: metal10, Direction: Vertical, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal9, Direction: Horizontal, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal8, Direction: Vertical, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal7, Direction: Horizontal, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal6, Direction: Vertical, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+The percentage of routing tracks used by the power net VDD for layer metal10: 50.22%
+The percentage of routing tracks used by the power net VDD for layer metal9: 50.22%
+The percentage of routing tracks used by the power net VDD for layer metal8: 38.42%
+The percentage of routing tracks used by the power net VDD for layer metal7: 38.60%
+The percentage of routing tracks used by the power net VDD for layer metal6: 23.09%
+The percentage of routing tracks used by the power net VDD for layer metal5: 0.00%
+The percentage of routing tracks used by the power net VDD for layer metal4: 0.00%
+The percentage of routing tracks used by the power net VDD for layer metal3: 0.00%
+The percentage of routing tracks used by the power net VDD for layer metal2: 0.00%
+The percentage of routing tracks used by the power net VDD for layer metal1: 0.00%
+The average percentage of routing tracks used by net VDD : 20.05%
+Net name : VSS
+IR drop of the synthesized net :    5.40 mV
+Core ring segment: Horizontal: metal9, Width: 5.0000 microns
+Core ring segment: Vertical: metal10, Width: 5.0000 microns
+Layer: metal10, Direction: Vertical, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal9, Direction: Horizontal, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal8, Direction: Vertical, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal7, Direction: Horizontal, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+Layer: metal6, Direction: Vertical, # of Straps: 25, PG spacing
+The maximum width of straps: 2.5000 microns
+The average width of straps: 2.5000 microns
+The percentage of routing tracks used by the power net VSS for layer metal10: 48.43%
+The percentage of routing tracks used by the power net VSS for layer metal9: 49.33%
+The percentage of routing tracks used by the power net VSS for layer metal8: 37.05%
+The percentage of routing tracks used by the power net VSS for layer metal7: 37.67%
+The percentage of routing tracks used by the power net VSS for layer metal6: 22.27%
+The percentage of routing tracks used by the power net VSS for layer metal5: 0.00%
+The percentage of routing tracks used by the power net VSS for layer metal4: 0.00%
+The percentage of routing tracks used by the power net VSS for layer metal3: 0.00%
+The percentage of routing tracks used by the power net VSS for layer metal2: 0.00%
+The percentage of routing tracks used by the power net VSS for layer metal1: 0.00%
+The average percentage of routing tracks used by net VSS : 19.47%
+Generating instance power and IR drop file ./pna_output/mips_16.inst_hl.pna
+Memory usage for design data :       9879.552 Kbytes
+Generating Power Routing Tcl commands file ./pna_output/create_pns_pg.tcl
+Overall takes     0.26 seconds
+Please read mips_16.PNS.log for detail information
+Creating PNS Replay file ./pna_output/pns_replay.tcl
+Power network synthesis is done successfully.
+Reading power network analysis highlight file: ./pna_output/mips_16.VDD.pw_hl.pna ...
+Setting the IR threshold of drop ratio display to 0.100 mV
+Successfully create error file ./pna_output/VDD.VD.report
+Successfully loaded voltage drop map
+Report display map data ...
+Successfully created the VD report file icc_gui.output
+Committing the synthesized power plan ... 
+Done with committing power plan!
+Prerouting standard cells horizontally: 
+ [10.19%]  
+ [20.37%]  
+ [30.56%]  
+ [40.74%]  
+ [50.93%]  
+ [61.11%]  
+ [71.30%]  
+ [81.48%]  
+ [91.67%]  
+ [100.00%] [done] 
+
+[Prerouter] CPU = 00:00:00, Elapsed = 00:00:00
+	Peak Memory =      232M Data =        5M
+Geometry mapping begins.
+Removing all the files with the prefix mips_16 in the directory ./pna_output
+Parasitics Operating Condition is max
+TLU+ based extraction:
+Resistance based on max model.
+Using operating temperature of 125.00 degree Celsius.
+Getting the info of via resistance from TLU+ model
+lower mask id 1, upper mask id 2, via layer 12, resistivity 6.000000
+lower mask id 2, upper mask id 3, via layer 14, resistivity 5.000000
+lower mask id 3, upper mask id 4, via layer 16, resistivity 5.000000
+lower mask id 4, upper mask id 5, via layer 18, resistivity 3.000000
+lower mask id 5, upper mask id 6, via layer 20, resistivity 3.000000
+lower mask id 6, upper mask id 7, via layer 22, resistivity 3.000000
+lower mask id 7, upper mask id 8, via layer 24, resistivity 1.000000
+lower mask id 8, upper mask id 9, via layer 26, resistivity 1.000000
+lower mask id 9, upper mask id 10, via layer 28, resistivity 0.500000
+EKL: max metal layer: 10  max back metal layer: 0
+Number of pad instances: 0
+Geometry mapping took     0.06 seconds
+All the cells are not placed
+
+Name of design : mips_16
+Number of cell instances in the design : 18810
+Number of cell instance masters in the library : 35
+
+Processing power net VSS ...
+Number of power net wires : 764
+Number of vias : 17064
+Average power dissipation in mips_16 :   500.00 mW
+Power supply voltage :     1.10 V
+Assigning vias begins
+Assigning vias took     0.02 seconds
+Total power of the unplaced cells : 	 500.000 mW
+Assigning power net wires ...
+Reading virtual power pads
+Warning: Virtual pad at (0.0000 0.0000) for net VSS cannot be used. (PNA-116)
+Warning: Virtual pad at (0.0000 327.2000) for net VSS cannot be used. (PNA-116)
+Extracting power net VSS ...
+Number of power pad nodes connecting to power net VSS : 30
+Number of power pads reaching to the power ports of the leaf cells or blocks: 30
+Number of resistors in VSS : 56222
+Number of nodes in VSS : 42607
+Assigning netlists to simulation engine begins...
+Total assigned virtual connection port current is 454.545445
+Total assigned connected port current is 0.000000
+Total assigned current is 454.545445
+Total floating virtual connection port current is 0.000000
+Total floating connected port current is 0.000000
+Assigning netlists to simulation engine finished
+Simulation begin ...
+Virtual Pad at (160.0000 327.2000) layer metal10 Supplies   18.64 mA Current (4.10%)
+Virtual Pad at (200.0000 327.2000) layer metal10 Supplies   18.49 mA Current (4.07%)
+Virtual Pad at (160.0000 0.0000) layer metal10 Supplies   18.41 mA Current (4.05%)
+Virtual Pad at (200.0000 0.0000) layer metal10 Supplies   18.25 mA Current (4.02%)
+Virtual Pad at (120.0000 327.2000) layer metal10 Supplies   18.13 mA Current (3.99%)
+Virtual Pad at (120.0000 0.0000) layer metal10 Supplies   17.85 mA Current (3.93%)
+Virtual Pad at (327.8500 160.0000) layer metal9 Supplies   16.52 mA Current (3.63%)
+Virtual Pad at (80.0000 327.2000) layer metal10 Supplies   16.48 mA Current (3.63%)
+Virtual Pad at (0.0000 160.0000) layer metal9 Supplies   16.48 mA Current (3.63%)
+Virtual Pad at (0.0000 200.0000) layer metal9 Supplies   16.47 mA Current (3.62%)
+Virtual Pad at (327.8500 200.0000) layer metal9 Supplies   16.45 mA Current (3.62%)
+Virtual Pad at (80.0000 0.0000) layer metal10 Supplies   16.13 mA Current (3.55%)
+Virtual Pad at (0.0000 120.0000) layer metal9 Supplies   16.13 mA Current (3.55%)
+Virtual Pad at (327.8500 120.0000) layer metal9 Supplies   16.10 mA Current (3.54%)
+Virtual Pad at (240.0000 327.2000) layer metal10 Supplies   16.09 mA Current (3.54%)
+Virtual Pad at (240.0000 0.0000) layer metal10 Supplies   15.81 mA Current (3.48%)
+Virtual Pad at (0.0000 240.0000) layer metal9 Supplies   14.80 mA Current (3.26%)
+Virtual Pad at (40.0000 327.2000) layer metal10 Supplies   14.60 mA Current (3.21%)
+Virtual Pad at (327.8500 240.0000) layer metal9 Supplies   14.53 mA Current (3.20%)
+Virtual Pad at (0.0000 80.0000) layer metal9 Supplies   14.48 mA Current (3.19%)
+Virtual Pad at (280.0000 327.2000) layer metal10 Supplies   14.26 mA Current (3.14%)
+Virtual Pad at (327.8500 80.0000) layer metal9 Supplies   14.17 mA Current (3.12%)
+Virtual Pad at (40.0000 0.0000) layer metal10 Supplies   13.94 mA Current (3.07%)
+Virtual Pad at (280.0000 0.0000) layer metal10 Supplies   13.80 mA Current (3.04%)
+Virtual Pad at (0.0000 280.0000) layer metal9 Supplies   13.74 mA Current (3.02%)
+Virtual Pad at (0.0000 40.0000) layer metal9 Supplies   12.83 mA Current (2.82%)
+Virtual Pad at (327.8500 280.0000) layer metal9 Supplies   12.55 mA Current (2.76%)
+Virtual Pad at (327.8500 40.0000) layer metal9 Supplies   11.52 mA Current (2.53%)
+Virtual Pad at (320.0000 327.2000) layer metal10 Supplies    8.79 mA Current (1.93%)
+Virtual Pad at (320.0000 0.0000) layer metal10 Supplies    8.10 mA Current (1.78%)
+Total Current from Pad Cells:    0.00 mA (0.00%)
+Total Current from Virtual Pads:  454.55 mA (100.00%)
+Maximum IR drop in mips_16 : 6.06 mV
+Maximum current in mips_16 : 18.637 mA
+Maximum EM of wires in mips_16 : 3.727491e+01 A/cm, layer metal10
+Maximum EM of vias in mips_16 : 3.235669e+05 A/cm_square, layer via9
+
+Processing power net VDD ...
+Number of power net wires : 1109
+Number of vias : 17609
+Average power dissipation in mips_16 :   500.00 mW
+Power supply voltage :     1.10 V
+Assigning vias begins
+Assigning vias took     0.02 seconds
+Total power of the unplaced cells : 	 500.000 mW
+Assigning power net wires ...
+Reading virtual power pads
+Warning: Virtual pad at (340.0000 0.0000) for net VDD cannot be used. (PNA-116)
+Warning: Virtual pad at (340.0000 327.2000) for net VDD cannot be used. (PNA-116)
+Extracting power net VDD ...
+Number of power pad nodes connecting to power net VDD : 30
+Number of power pads reaching to the power ports of the leaf cells or blocks: 30
+Number of resistors in VDD : 61743
+Number of nodes in VDD : 45484
+Assigning netlists to simulation engine begins...
+Total assigned virtual connection port current is 454.545445
+Total assigned connected port current is 0.000000
+Total assigned current is 454.545445
+Total floating virtual connection port current is 0.000000
+Total floating connected port current is 0.000000
+Assigning netlists to simulation engine finished
+Simulation begin ...
+Virtual Pad at (140.0000 0.0000) layer metal10 Supplies   20.50 mA Current (4.51%)
+Virtual Pad at (220.0000 0.0000) layer metal10 Supplies   20.34 mA Current (4.47%)
+Virtual Pad at (180.0000 0.0000) layer metal10 Supplies   20.10 mA Current (4.42%)
+Virtual Pad at (140.0000 327.2000) layer metal10 Supplies   20.03 mA Current (4.41%)
+Virtual Pad at (220.0000 327.2000) layer metal10 Supplies   19.75 mA Current (4.34%)
+Virtual Pad at (180.0000 327.2000) layer metal10 Supplies   19.71 mA Current (4.34%)
+Virtual Pad at (100.0000 0.0000) layer metal10 Supplies   19.53 mA Current (4.30%)
+Virtual Pad at (100.0000 327.2000) layer metal10 Supplies   18.93 mA Current (4.16%)
+Virtual Pad at (260.0000 0.0000) layer metal10 Supplies   17.53 mA Current (3.86%)
+Virtual Pad at (60.0000 0.0000) layer metal10 Supplies   17.15 mA Current (3.77%)
+Virtual Pad at (260.0000 327.2000) layer metal10 Supplies   16.55 mA Current (3.64%)
+Virtual Pad at (60.0000 327.2000) layer metal10 Supplies   16.02 mA Current (3.52%)
+Virtual Pad at (300.0000 0.0000) layer metal10 Supplies   14.79 mA Current (3.25%)
+Virtual Pad at (0.0000 180.0000) layer metal9 Supplies   14.62 mA Current (3.22%)
+Virtual Pad at (0.0000 140.0000) layer metal9 Supplies   14.54 mA Current (3.20%)
+Virtual Pad at (327.8500 180.0000) layer metal9 Supplies   14.17 mA Current (3.12%)
+Virtual Pad at (327.8500 140.0000) layer metal9 Supplies   14.10 mA Current (3.10%)
+Virtual Pad at (0.0000 220.0000) layer metal9 Supplies   13.40 mA Current (2.95%)
+Virtual Pad at (0.0000 100.0000) layer metal9 Supplies   13.36 mA Current (2.94%)
+Virtual Pad at (0.0000 60.0000) layer metal9 Supplies   13.19 mA Current (2.90%)
+Virtual Pad at (20.0000 0.0000) layer metal10 Supplies   13.07 mA Current (2.88%)
+Virtual Pad at (327.8500 60.0000) layer metal9 Supplies   13.00 mA Current (2.86%)
+Virtual Pad at (327.8500 220.0000) layer metal9 Supplies   12.99 mA Current (2.86%)
+Virtual Pad at (327.8500 100.0000) layer metal9 Supplies   12.98 mA Current (2.86%)
+Virtual Pad at (300.0000 327.2000) layer metal10 Supplies   12.54 mA Current (2.76%)
+Virtual Pad at (0.0000 260.0000) layer metal9 Supplies   11.20 mA Current (2.46%)
+Virtual Pad at (327.8500 260.0000) layer metal9 Supplies   10.91 mA Current (2.40%)
+Virtual Pad at (20.0000 327.2000) layer metal10 Supplies   10.79 mA Current (2.37%)
+Virtual Pad at (327.8500 300.0000) layer metal9 Supplies    9.38 mA Current (2.06%)
+Virtual Pad at (0.0000 300.0000) layer metal9 Supplies    9.37 mA Current (2.06%)
+Total Current from Pad Cells:    0.00 mA (0.00%)
+Total Current from Virtual Pads:  454.55 mA (100.00%)
+Maximum IR drop in mips_16 : 6.44 mV
+Maximum current in mips_16 : 20.499 mA
+Maximum EM of wires in mips_16 : 4.099872e+01 A/cm, layer metal10
+Maximum EM of vias in mips_16 : 3.558916e+05 A/cm_square, layer via9
+Generating instance power and IR drop file ./pna_output/mips_16.inst_hl.pna
+Overall takes     0.88 seconds
+Please read ./pna_output/mips_16.VPNA.log for detail information
+
+Summary of the Power Network Analysis Results
+Total Run Time:     0.94 seconds
+Output directory used: ./pna_output
+Average power dissipation in mips_16:  500.00 mW
+Power Supply Voltage:    1.10 Volt
+Number of the Analyzed Power/Ground Nets: 2
+
+Net Name: VSS
+Number of Pad Cells: 0
+Number of Pad Cells Supplying Current: 0
+Number of Virtual Pad Nodes: 32
+Number of Virtual Pad Nodes Supplying Current: 30
+Number of Net Wires: 764
+Number of Net Vias: 17064
+Number of Extracted Resistors: 56222
+Number of Extracted Nodes: 42607
+Current from Pad Cells:    0.00 mA (0.00%)
+Current from Virtual Pad Nodes:  454.55 mA (100.00%)
+Maximum IR drop:   6.061 mV at (154.4500 159.3150) (155.4100 159.4850) layer metal1
+Maximum Wire EM: 3.727491e+01 A/cm at (157.5000 318.1000) (162.5000 327.2000) layer metal10
+Maximum Via EM: 3.235669e+05 A/cm_2 at (157.5000 315.6000) (162.5000 320.6000) layer via9
+The percentage of routing tracks used by the power net for layer metal10: 49.69%
+The percentage of routing tracks used by the power net for layer metal9: 50.46%
+The percentage of routing tracks used by the power net for layer metal8: 81.88%
+The percentage of routing tracks used by the power net for layer metal7: 77.53%
+The percentage of routing tracks used by the power net for layer metal6: 44.53%
+The percentage of routing tracks used by the power net for layer metal5: 0.00%
+The percentage of routing tracks used by the power net for layer metal4: 0.00%
+The percentage of routing tracks used by the power net for layer metal3: 0.00%
+The percentage of routing tracks used by the power net for layer metal2: 0.00%
+The percentage of routing tracks used by the power net for layer metal1: 12.82%
+The average percentage of routing tracks used by net VSS : 31.69%
+
+Net Name: VDD
+Number of Pad Cells: 0
+Number of Pad Cells Supplying Current: 0
+Number of Virtual Pad Nodes: 32
+Number of Virtual Pad Nodes Supplying Current: 30
+Number of Net Wires: 1109
+Number of Net Vias: 17609
+Number of Extracted Resistors: 61743
+Number of Extracted Nodes: 45484
+Current from Pad Cells:    0.00 mA (0.00%)
+Current from Virtual Pad Nodes:  454.55 mA (100.00%)
+Maximum IR drop:   6.441 mV at (151.8300 160.7150) (152.1100 160.8850) layer metal1
+Maximum Wire EM: 4.099872e+01 A/cm at (137.5000 0.0000) (142.5000 3.3000) layer metal10
+Maximum Via EM: 3.558916e+05 A/cm_2 at (137.5000 0.8000) (142.5000 5.8000) layer via9
+The percentage of routing tracks used by the power net for layer metal10: 50.92%
+The percentage of routing tracks used by the power net for layer metal9: 52.32%
+The percentage of routing tracks used by the power net for layer metal8: 83.44%
+The percentage of routing tracks used by the power net for layer metal7: 78.35%
+The percentage of routing tracks used by the power net for layer metal6: 46.18%
+The percentage of routing tracks used by the power net for layer metal5: 0.00%
+The percentage of routing tracks used by the power net for layer metal4: 0.00%
+The percentage of routing tracks used by the power net for layer metal3: 0.00%
+The percentage of routing tracks used by the power net for layer metal2: 0.00%
+The percentage of routing tracks used by the power net for layer metal1: 12.93%
+The average percentage of routing tracks used by net VDD : 32.41%
+PNA is done successfully.
+Reading power network analysis highlight file: ./pna_output/mips_16.VDD.pw_hl.pna ...
+Setting the IR threshold of drop ratio display to 0.100 mV
+Successfully create error file ./pna_output/VDD.VD.report
+Successfully loaded voltage drop map
+Report display map data ...
+Successfully created the VD report file icc_gui.output
+Reference Point: Lower Left-hand corner of Core Base Array
+Warning: No scan chain found. (VFP-425)
+CPU time for freeing timing design =    0:00:00
+Elapsed time for freeing timing design =    0:00:00
+num_cpus = 1
+Reference Point: Lower Left-hand corner of Core Base Array
+Reference Point: Lower Left-hand corner of Core Base Array
+Reference Point: Lower Left-hand corner of Core Base Array
+Reference Point: Lower Left-hand corner of Core Base Array
+Reference Point: Lower Left-hand corner of Core Base Array
+flip_chip = 0
+*** Performing global placement...
+Transferring Data From Milkyway...
+Number of plan group pins = 0
+Auto detecting hierarchy nodes for grouping ...
+Warning: No hierarchy information in design. Hierarchy gravity turned off. (VFP-415)
+  14 blocks freed
+  0 bytes freed
+Placement Effort Level: Low
+Placement Design Stats
+Num std     cells  = 18810 (fixed = 0)
+Num macros  cells  = 0 (fixed = 0)
+Num IOs     cells  = 0
+Num bump    cells  = 0
+Num LS/ISO  cells  = 0
+Num no type cells  = 0
+Num other   cells  = 0
+Num cells with no net connections = 0
+Num non-zero wt nets = 18842
+Num     zero wt nets = 0
+A net with highest fanout (252) is SNPS_LOGIC0
+grouping macros ...
+0 macro arrays generated automatically.
+0 array cells created
+No large HMs were processed
+coarse place 40% done.
+coarse place 60% done.
+coarse place 80% done.
+coarse place 100% done.
+*********************************************
+Report     : Virtual Flat Placement
+Design     : mips_16
+Version    : G-2012.06-ICC-SP2
+Date       : Fri Apr  6 09:43:48 2018
+*********************************************
+
+Total wirelength: 943744.82
+Number of 100x100 tracks cell density regions: 441
+Number of low (< 10%) cell density regions: 0 (0.000%)
+Number of high (> 200%) cell density regions: 0 (0.000%)
+Maximum cell density: 44.99% (at 232 191 246 204)
+Checking hard macro to hard macro overlaps...
+Number of hard macro to hard macro overlaps: 0
+Checking hard macro to std cell overlaps...
+Number of hard macro to std cell overlaps: 0
+Checking plan group to plan group overlaps...
+Number of plan group to plan group overlaps: 0
+Number of TL cells overlapping PG: 0
+Number of cells violating core area: 0
+Total number of cells violating plan group or core area: 0
+Transferring Data to Milkyway ...
+*** global placement done.
+Begin Overlap Removal...
+[begin initializing data for legality checker]
+Initializing Data Structure ...
+  Reading technology information ...
+    Technology table contains 10 routable metal layers
+    Top most routable layer is set to be metal6
+    This is considered as a 6-metal-layer design
+    Reading library information from DB ...
+  Reading misc information ...
+    array <unit> has 0 vertical and 216 horizontal rows
+    50 pre-routes for placement blockage/checking
+    27392 pre-routes for map congestion calculation
+  Checking information read in ...
+    design style = Horizontal masters, Horizontal rows
+  Preprocessing design ...
+    splitting rows by natural obstacles ...
+[end initializing data for legality checker]
+Information: Running legalization in Fast-Mode! (DPI-029)
+ 
+****************************************
+  Report : Chip Summary
+  Design : mips_16
+  Version: G-2012.06-ICC-SP2
+  Date   : Fri Apr  6 09:43:48 2018
+****************************************
+Std cell utilization: 40.11%  (138180/(344520-0))
+(Non-fixed + Fixed)
+Std cell utilization: 40.11%  (138180/(344520-0))
+(Non-fixed only)
+Chip area:            344520   sites, bbox (12.40 12.40 315.45 314.80) um
+Std cell area:        138180   sites, (non-fixed:138180 fixed:0)
+                      18810    cells, (non-fixed:18810  fixed:0)
+Macro cell area:      0        sites
+                      0        cells
+Placement blockages:  0        sites, (excluding fixed std cells)
+                      0        sites, (include fixed std cells & chimney area)
+                      0        sites, (complete p/g net blockages)
+Routing blockages:    0        sites, (partial p/g net blockages)
+                      0        sites, (routing blockages and signal pre-route)
+Lib cell count:       34 
+Avg. std cell width:  1.39 um 
+Site array:           unit     (width: 0.19 um, height: 1.40 um, rows: 216)
+Physical DB scale:    10000 db_unit = 1 um 
+
+ 
+****************************************
+  Report : pnet options
+  Design : mips_16
+  Version: G-2012.06-ICC-SP2
+  Date   : Fri Apr  6 09:43:48 2018
+****************************************
+
+
+--------------------------------------------------------------------
+Layer      Blockage   Min_width   Min_height   Via_additive     Density
+--------------------------------------------------------------------
+metal1     none          ---         ---       via additive      ---
+metal2     none          ---         ---       via additive      ---
+metal3     none          ---         ---       via additive      ---
+metal4     none          ---         ---       via additive      ---
+metal5     none          ---         ---       via additive      ---
+metal6     none          ---         ---       via additive      ---
+metal7     none          ---         ---       via additive      ---
+metal8     none          ---         ---       via additive      ---
+metal9     none          ---         ---       via additive      ---
+metal10    none          ---         ---       via additive      ---
+Legalizing 18810 illegal cells...
+Starting legalizer.
+Initial legalization:  100% (0 sec)
+Optimizations pass 1: 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (0.1 sec)
+Optimizations pass 2: 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (0.1 sec)
+Optimizations pass 3: 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% (0.1 sec)
+Legalization complete (1 total sec)
+ 
+****************************************
+  Report : Legalize Displacement
+  Design : mips_16
+  Version: G-2012.06-ICC-SP2
+  Date   : Fri Apr  6 09:43:49 2018
+****************************************
+
+avg cell displacement:    0.389 um ( 0.28 row height)
+max cell displacement:    1.112 um ( 0.79 row height)
+std deviation:            0.202 um ( 0.14 row height)
+number of cell moved:     18810 cells (out of 18810 cells)
+
+Total 0 cells has large displacement (e.g. > 4.200 um or 3 row height)
+
+Information: Fast-Mode Legalization Done! (DPI-030)
+Completed Overlap Removal.
+-fill boundary row-
+-fill macro blockage row-
+-stagger-
+-boundary row double density-
+-macro blockage row double density-
+-skip fixed cells as macros-
+... Rectilinear Array Tap Insertion...
+Hierarchical update for new tap cells
+
+Initializing Data Structure ...
+  Reading technology information ...
+    Technology table contains 10 routable metal layers
+    Top most routable layer is set to be metal6
+    This is considered as a 6-metal-layer design
+    Reading library information from DB ...
+  Reading netlist information from DB ...
+    18810 placeable cells
+    0 cover cells
+    34 IO cells/pins
+    18844 cell instances
+  Sorting cells, nets, pins ...
+    net pin threshold = 33
+  Reading misc information ...
+    array <unit> has 0 vertical and 216 horizontal rows
+    50 pre-routes for placement blockage/checking
+    27392 pre-routes for map congestion calculation
+    Auto Set : first cut = vertical
+  Checking information read in ...
+    design style = Horizontal masters, Horizontal rows
+  Preprocessing design ...
+    processing macro cells (if any)
+    processing preroute blockages (if any)
+    processing hard placement blockages (if any)
+    processing soft placement blockages (if any)
+use base array...
+    Auto Set : first cut = vertical
+Total 2289 array taps inserted successfully

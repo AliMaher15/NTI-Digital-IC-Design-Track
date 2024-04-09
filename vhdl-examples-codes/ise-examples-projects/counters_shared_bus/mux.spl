@@ -1,8 +1,0 @@
-[Inputs]
-=i_johnson[3:0]=
-=i_ring[3:0]=
-=i_bcd[3:0]=
-=i_S2[1:0]=
-[Outputs]
-=o_out4[3:0]=
-[BiDir]

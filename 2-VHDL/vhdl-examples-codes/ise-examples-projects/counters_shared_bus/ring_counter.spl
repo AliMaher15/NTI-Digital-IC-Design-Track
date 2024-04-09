@@ -1,0 +1,6 @@
+[Inputs]
+i_clk
+i_rst
+[Outputs]
+=o_ring_count[3:0]=
+[BiDir]

@@ -1,0 +1,45 @@
+V3 24
+FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf 2024/03/18.12:06:48 P.20131013
+EN work/counters_shared_bus 1710756420 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/counters_shared_bus/BEHAVIORAL 1710756421 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf \
+      EN work/counters_shared_bus 1710756420 CP bus_fsm CP johnson_counter \
+      CP bcd_counter CP ring_counter CP mux
+FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd 2024/03/18.11:55:51 P.20131013
+EN work/bcd_counter 1710756414 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/bcd_counter/rtl 1710756415 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd \
+      EN work/bcd_counter 1710756414
+FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd 2024/03/18.11:51:29 P.20131013
+EN work/bus_fsm 1710756410 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176
+AR work/bus_fsm/behavior 1710756411 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd \
+      EN work/bus_fsm 1710756410
+FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd 2024/03/18.11:16:16 P.20131013
+EN work/johnson_counter 1710756412 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176
+AR work/johnson_counter/behavior1 1710756413 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd \
+      EN work/johnson_counter 1710756412
+FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd 2024/03/18.11:50:25 P.20131013
+EN work/mux 1710756418 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/mux/Behavioral 1710756419 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd \
+      EN work/mux 1710756418
+FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd 2024/03/18.11:16:12 P.20131013
+EN work/ring_counter 1710756416 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176
+AR work/ring_counter/behavior1 1710756417 \
+      FL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd \
+      EN work/ring_counter 1710756416

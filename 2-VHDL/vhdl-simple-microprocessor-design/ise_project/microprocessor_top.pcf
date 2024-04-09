@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Mar 26 13:38:08 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "i_clk" LOCATE = SITE "C9" LEVEL 1;
+COMP "i_rst" LOCATE = SITE "L14" LEVEL 1;
+COMP "o_fpga_mux_data<0>" LOCATE = SITE "C11" LEVEL 1;
+COMP "o_fpga_mux_data<1>" LOCATE = SITE "F11" LEVEL 1;
+COMP "o_fpga_mux_data<2>" LOCATE = SITE "E12" LEVEL 1;
+COMP "o_fpga_mux_data<3>" LOCATE = SITE "F12" LEVEL 1;
+COMP "i_fpga_mux_sel" LOCATE = SITE "L13" LEVEL 1;
+COMP "o_valid_result" LOCATE = SITE "F9" LEVEL 1;
+NET "i_clk_BUFGP/IBUFG" BEL "i_clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

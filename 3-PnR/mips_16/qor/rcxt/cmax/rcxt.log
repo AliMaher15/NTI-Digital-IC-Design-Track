@@ -1,0 +1,325 @@
+
+
+                         StarRC (TM)
+             Copyright (c) 1999-2012 Synopsys, Inc.
+                      All Rights Reserved
+
+
+ExecName: /usr/synopsys/StarRC/amd64_starrc/bin/StarXtract
+Version: G-2012.06-SP2
+Built on: Aug 27 2012 21:31:32
+Start Time: Fri Apr  6 14:43:57 2018
+
+Host ............ localhost.localdomain
+
+xTractorName:/usr/synopsys/StarRC/amd64_starrc/bin/xTractor
+Version: G-2012.06-SP2
+Built on: Aug 27 2012 21:33:19
+Start Time: Fri Apr  6 14:43:57 2018
+
+Block ........... mips_16
+Star Directory .. /home/ahesham/Desktop/Teaching/ali_maher/qor/rcxt/cmax/star
+Milkyway DB ..... /home/ahesham/Desktop/Teaching/ali_maher/pnr/mips_16
+ Ref Lib Mode ... NONE (session)
+ Ref Libs .......
+ /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Back_End/mdb
+
+Map Layers:  Fri Apr  6 14:44:02 2018
+  Warnings: 0    Errors: 0
+  Layers        Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.3    Mem=176.4 
+Done
+
+Create Models:  Fri Apr  6 14:44:03 2018
+  Warnings: 0    Errors: 0
+  Models        Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=176.3 
+Done
+
+Build HN:  Fri Apr  6 14:44:06 2018
+  Warnings: 0    Errors: 0
+  HN            Elp=00:00:01 Cpu=00:00:01 Usr=0.1    Sys=0.9    Mem=214.5 
+Done
+
+Process Cells:  Fri Apr  6 14:44:07 2018
+WARNING: StarXtract
+WARNING: Logical pin port "reset" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "clk" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[15]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[14]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[13]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[12]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[11]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[10]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[9]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[8]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[7]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[6]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[5]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[4]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[3]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[2]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[1]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "alu_result[0]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[15]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[14]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[13]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[12]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[11]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[10]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[9]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[8]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[7]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[6]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[5]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[4]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[3]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[2]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[1]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+WARNING: StarXtract
+WARNING: Logical pin port "pc_out[0]" in BLOCK is not placed in the layout.
+WARNING: Creating a virtual PIO geometryThe Placement for this pin in parasitic netlist might be
+WARNING: incorrect.
+  Warnings: 34    Errors: 0    (See file cells.sum)
+  Cells         Elp=00:00:02 Cpu=00:00:01 Usr=0.5    Sys=1.1    Mem=294.5 
+Done
+
+Translate DB:  Fri Apr  6 14:44:09 2018
+  Warnings: 0    Errors: 0
+  Translate     Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.1    Mem=231.8 
+Done
+
+Netlist Setup:  Fri Apr  6 14:44:09 2018
+  Warnings: 0    Errors: 0
+  NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=82.5  
+Done
+
+Partition_part1 DB:  Fri Apr  6 14:44:13 2018
+WARNING: StarXtract
+WARNING: create xin_sub1 with the full xin: xin
+Completed   0%  Time=00:00:00  RemainingTime=00:00:01  Mem=183.188
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=196.562
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=209.688
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=235.043
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=236.23
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=237.414
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=238.324
+  Warnings: 1    Errors: 0    (See file partition_part1.sum)
+  Partition_part1 Elp=00:00:00 Cpu=00:00:00 Usr=0.6    Sys=0.0    Mem=238.3 
+Done
+
+PartitionPP:  Fri Apr  6 14:44:16 2018
+  Warnings: 0    Errors: 0
+  PartitionPP   Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=76.2  
+Done
+
+xTract_part1 DB:  Fri Apr  6 14:44:19 2018
+Completed   0%  Time=00:00:00  RemainingTime=00:00:03  Mem=131.637
+Completed   1%  Time=00:00:00  RemainingTime=00:00:06  Mem=142.234
+Completed   2%  Time=00:00:00  RemainingTime=00:00:06  Mem=152.914
+Completed   3%  Time=00:00:00  RemainingTime=00:00:12  Mem=163.246
+Completed   4%  Time=00:00:00  RemainingTime=00:00:12  Mem=171.062
+Completed   5%  Time=00:00:01  RemainingTime=00:00:17  Mem=175.34
+Completed  10%  Time=00:00:02  RemainingTime=00:00:20  Mem=187.273
+Completed  15%  Time=00:00:04  RemainingTime=00:00:23  Mem=196.609
+Completed  20%  Time=00:00:06  RemainingTime=00:00:24  Mem=205.996
+Completed  25%  Time=00:00:08  RemainingTime=00:00:25  Mem=210.465
+Completed  30%  Time=00:00:10  RemainingTime=00:00:24  Mem=210.895
+Completed  35%  Time=00:00:12  RemainingTime=00:00:23  Mem=211.742
+Completed  40%  Time=00:00:14  RemainingTime=00:00:22  Mem=211.871
+Completed  45%  Time=00:00:17  RemainingTime=00:00:20  Mem=212.152
+Completed  50%  Time=00:00:19  RemainingTime=00:00:18  Mem=212.285
+Completed  55%  Time=00:00:21  RemainingTime=00:00:16  Mem=212.285
+Completed  60%  Time=00:00:23  RemainingTime=00:00:15  Mem=212.285
+Completed  65%  Time=00:00:25  RemainingTime=00:00:13  Mem=212.285
+Completed  70%  Time=00:00:27  RemainingTime=00:00:11  Mem=212.285
+Completed  75%  Time=00:00:29  RemainingTime=00:00:09  Mem=212.285
+Completed  80%  Time=00:00:31  RemainingTime=00:00:07  Mem=212.285
+Completed  85%  Time=00:00:33  RemainingTime=00:00:05  Mem=212.414
+Completed  90%  Time=00:00:35  RemainingTime=00:00:03  Mem=212.414
+Completed  95%  Time=00:00:37  RemainingTime=00:00:01  Mem=212.547
+Completed 100%  Time=00:00:38  RemainingTime=00:00:00  Mem=212.543
+  Extracted 36713090 capacitors, 1915293 resistors, 0 reluctors, 1657511 nodes
+   Reduced to 86784 nodes,  (94.7642%)
+   Reduced to 88125 resistors,  (95.3989%)
+   Reduced to 1002645 capacitors,  (97.269%)
+   Warnings: 0    Errors: 0
+  xTract_part1  Elp=00:00:43 Cpu=00:00:41 Usr=39.9   Sys=2.0    Mem=212.5 
+Done
+
+xTract Post Process DB:  Fri Apr  6 14:45:05 2018
+Completed   0%  Time=00:00:00  RemainingTime=00:00:02  Mem=44.6914
+Completed  10%  Time=00:00:00  RemainingTime=00:00:00  Mem=44.6914
+Completed  20%  Time=00:00:00  RemainingTime=00:00:00  Mem=44.6914
+Completed  40%  Time=00:00:00  RemainingTime=00:00:00  Mem=44.6914
+Completed  60%  Time=00:00:00  RemainingTime=00:00:00  Mem=44.6914
+Completed  80%  Time=00:00:00  RemainingTime=00:00:00  Mem=44.6914
+Completed 100%  Time=00:00:00  RemainingTime=00:00:00  Mem=44.6914
+  Warnings: 0    Errors: 0
+  xTractPP      Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=44.7  
+Done
+
+Netlist_part1 DB:  Fri Apr  6 14:45:08 2018
+Completed   0%  Time=00:00:00  RemainingTime=00:00:07  Mem=80.2109
+Completed   2%  Time=00:00:00  RemainingTime=00:00:03  Mem=90.3242
+Completed   4%  Time=00:00:00  RemainingTime=00:00:03  Mem=94.1445
+Completed   6%  Time=00:00:00  RemainingTime=00:00:02  Mem=97.6016
+Completed   8%  Time=00:00:00  RemainingTime=00:00:02  Mem=100.914
+Completed  10%  Time=00:00:00  RemainingTime=00:00:02  Mem=102.797
+Completed  20%  Time=00:00:00  RemainingTime=00:00:02  Mem=111.328
+Completed  30%  Time=00:00:00  RemainingTime=00:00:02  Mem=117.188
+Completed  40%  Time=00:00:01  RemainingTime=00:00:01  Mem=121.098
+Completed  50%  Time=00:00:01  RemainingTime=00:00:01  Mem=124.695
+Completed  60%  Time=00:00:01  RemainingTime=00:00:01  Mem=125.613
+Completed  70%  Time=00:00:01  RemainingTime=00:00:01  Mem=126.93
+Completed  80%  Time=00:00:02  RemainingTime=00:00:00  Mem=128.25
+Completed  90%  Time=00:00:02  RemainingTime=00:00:00  Mem=128.379
+Completed 100%  Time=00:00:02  RemainingTime=00:00:00  Mem=128.379
+  Warnings: 0    Errors: 0
+  Netlist_part1 Elp=00:00:03 Cpu=00:00:03 Usr=2.9    Sys=0.1    Mem=128.4 
+Done
+  
+Layers          Elp=00:00:01 Cpu=00:00:00 Usr=0.1    Sys=0.3    Mem=176.4 
+Models          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=176.3 
+HN              Elp=00:00:01 Cpu=00:00:01 Usr=0.1    Sys=0.9    Mem=214.5 
+Cells           Elp=00:00:02 Cpu=00:00:01 Usr=0.5    Sys=1.1    Mem=294.5 
+Translate       Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.1    Mem=231.8 
+NetlistSetup    Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=82.5  
+Partition_part1 Elp=00:00:00 Cpu=00:00:00 Usr=0.6    Sys=0.0    Mem=238.3 
+PartitionPP     Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=76.2  
+xTract_part1    Elp=00:00:43 Cpu=00:00:41 Usr=39.9   Sys=2.0    Mem=212.5 
+xTractPP        Elp=00:00:00 Cpu=00:00:00 Usr=0.4    Sys=0.0    Mem=44.7  
+Netlist_part1   Elp=00:00:03 Cpu=00:00:03 Usr=2.9    Sys=0.1    Mem=128.4 
+  
+Done          Elp=00:00:50 Cpu=00:00:49 Usr=44.9   Sys=4.5    Mem=294.5 
+
+End Time: Fri Apr  6 14:45:18 2018
+
+
+
+RUN-TIME SUMMARY:
+------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+------------------------------------------------------------------------------------------
+CPU_01 |*Layers        Elp=00:00:01 Cpu=00:00:00 Mem=176.4  | Apr  6 14:44:03 | localhost.localdomain
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=176.3  | Apr  6 14:44:03 | localhost.localdomain
+CPU_01 |*HN            Elp=00:00:01 Cpu=00:00:01 Mem=214.5  | Apr  6 14:44:07 | localhost.localdomain
+CPU_01 |*Cells         Elp=00:00:02 Cpu=00:00:01 Mem=294.5  | Apr  6 14:44:09 | localhost.localdomain
+CPU_01 |*Translate     Elp=00:00:00 Cpu=00:00:00 Mem=231.8  | Apr  6 14:44:09 | localhost.localdomain
+CPU_01 |*NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Mem=82.5   | Apr  6 14:44:10 | localhost.localdomain
+CPU_01 |*Partition_part1 Elp=00:00:00 Cpu=00:00:00 Mem=238.3  | Apr  6 14:44:13 | localhost.localdomain
+CPU_01 |*PartitionPP   Elp=00:00:00 Cpu=00:00:00 Mem=76.2   | Apr  6 14:44:16 | localhost.localdomain
+CPU_01 |*xTract_part1  Elp=00:00:43 Cpu=00:00:41 Mem=212.5  | Apr  6 14:45:02 | localhost.localdomain
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=44.7   | Apr  6 14:45:05 | localhost.localdomain
+CPU_01 |*Netlist_part1 Elp=00:00:03 Cpu=00:00:03 Mem=128.4  | Apr  6 14:45:11 | localhost.localdomain
+------------------------------------------------------------------------------------------
+Maximum and average run time (Elp) for distributed stages: 
+    Partition  max=00:00:00 avg=00:00:00
+    xTract     max=00:00:43 avg=00:00:43
+    Netlist    max=00:00:03 avg=00:00:03
+------------------------------------------------------------------------------------------
+Start Time: Fri Apr  6 14:44:02 2018
+End Time:   Fri Apr  6 14:45:18 2018
+Total Wall Time: 00:01:16
+Time on PreXtraction:  00:00:17
+Time on Xtraction:     00:00:43
+Time on PostXtraction: 00:00:16
+------------------------------------------------------------------------------------------
+
+

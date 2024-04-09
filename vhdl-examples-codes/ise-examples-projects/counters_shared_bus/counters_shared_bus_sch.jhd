@@ -1,3 +1,0 @@
-MODULE counters_shared_bus_sch
-	SUBMODULE bus_fsm
-		INSTANCE XLXI_1

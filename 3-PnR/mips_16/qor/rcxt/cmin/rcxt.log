@@ -1,0 +1,118 @@
+
+
+                         StarRC (TM)
+             Copyright (c) 1999-2012 Synopsys, Inc.
+                      All Rights Reserved
+
+
+ExecName: /usr/synopsys/StarRC/amd64_starrc/bin/StarXtract
+Version: G-2012.06-SP2
+Built on: Aug 27 2012 21:31:32
+Start Time: Fri Apr  6 14:43:27 2018
+
+Host ............ localhost.localdomain
+
+xTractorName:/usr/synopsys/StarRC/amd64_starrc/bin/xTractor
+Version: G-2012.06-SP2
+Built on: Aug 27 2012 21:33:19
+Start Time: Fri Apr  6 14:43:27 2018
+
+Block ........... mips_16
+Star Directory .. /home/ahesham/Desktop/Teaching/ali_maher/qor/rcxt/cmin/star
+Milkyway DB ..... /home/ahesham/Desktop/Teaching/ali_maher/pnr/mips_16
+ Ref Lib Mode ... NONE (session)
+ Ref Libs .......
+ /home/standard_cell_libraries/NangateOpenCellLibrary_PDKv1_3_v2010_12/lib/Back_End/mdb
+
+Map Layers:  Fri Apr  6 14:43:32 2018
+  NOT RUNNING Layers!!  Using previous results. 
+   Previous Layers Elp=00:00:00 Cpu=00:00:00 Usr=0.1 Sys=0.1 Mem=176.4 
+Done
+
+Create Models:  Fri Apr  6 14:43:32 2018
+  NOT RUNNING Models!!  Using previous results. 
+   Previous Models Elp=00:00:00 Cpu=00:00:00 Usr=0.0 Sys=0.0 Mem=176.3 
+Done
+
+Build HN:  Fri Apr  6 14:43:35 2018
+  NOT RUNNING HN!!  Using previous results. 
+   Previous HN Elp=00:00:01 Cpu=00:00:00 Usr=0.5 Sys=0.3 Mem=215.2 
+Done
+
+Process Cells:  Fri Apr  6 14:43:35 2018
+  NOT RUNNING Cells!!  Using previous results. 
+   Previous Cells Elp=00:00:01 Cpu=00:00:01 Usr=0.8 Sys=0.4 Mem=294.9 
+Done
+
+Translate DB:  Fri Apr  6 14:43:35 2018
+  NOT RUNNING Translate!!  Using previous results. 
+   Previous Translate Elp=00:00:01 Cpu=00:00:00 Usr=0.4 Sys=0.0 Mem=231.8 
+Done
+
+Netlist Setup:  Fri Apr  6 14:43:35 2018
+  NOT RUNNING NetlistSetup!!  Using previous results. 
+   Previous NetlistSetup Elp=00:00:00 Cpu=00:00:00 Usr=0.0 Sys=0.0 Mem=82.7 
+Done
+
+Partition_part1 DB:  Fri Apr  6 14:43:38 2018
+  NOT RUNNING Partition_part1!!  Using previous results. 
+   Previous Partition_part1 Elp=00:00:01 Cpu=00:00:00 Usr=0.7 Sys=0.0 Mem=238.2 
+Done
+
+PartitionPP:  Fri Apr  6 14:43:41 2018
+  NOT RUNNING PartitionPP!!  Using previous results. 
+   Previous PartitionPP Elp=00:00:00 Cpu=00:00:00 Usr=0.0 Sys=0.0 Mem=76.2 
+Done
+
+xTract_part1 DB:  Fri Apr  6 14:43:44 2018
+  NOT RUNNING xTract_part1!!  Using previous results. 
+   Previous xTract_part1 Elp=00:00:42 Cpu=00:00:41 Usr=41.3 Sys=0.3 Mem=212.8 
+Done
+
+xTract Post Process DB:  Fri Apr  6 14:43:47 2018
+  NOT RUNNING xTractPP!!  Using previous results. 
+   Previous xTractPP Elp=00:00:00 Cpu=00:00:00 Usr=0.4 Sys=0.0 Mem=44.7 
+Done
+
+Netlist_part1 DB:  Fri Apr  6 14:43:50 2018
+  NOT RUNNING Netlist_part1!!  Using previous results. 
+   Previous Netlist_part1 Elp=00:00:03 Cpu=00:00:03 Usr=2.9 Sys=0.1 Mem=127.7 
+Done
+  
+  
+Done          Elp=00:00:00 Cpu=00:00:00 Usr=0.0    Sys=0.0    Mem=0.0   
+
+End Time: Fri Apr  6 14:43:57 2018
+
+
+
+RUN-TIME SUMMARY:
+------------------------------------------------------------------------------------------
+CPU#   | STAGE SUMMARY                                      | END TIME        | HOST NAME
+------------------------------------------------------------------------------------------
+CPU_01 |*Layers        Elp=00:00:00 Cpu=00:00:00 Mem=176.4  | Apr  6 10:30:38 | localhost.localdomain
+CPU_01 |*Models        Elp=00:00:00 Cpu=00:00:00 Mem=176.3  | Apr  6 10:30:38 | localhost.localdomain
+CPU_01 |*HN            Elp=00:00:01 Cpu=00:00:00 Mem=215.2  | Apr  6 10:30:42 | localhost.localdomain
+CPU_01 |*Cells         Elp=00:00:01 Cpu=00:00:01 Mem=294.9  | Apr  6 10:30:43 | localhost.localdomain
+CPU_01 |*Translate     Elp=00:00:01 Cpu=00:00:00 Mem=231.8  | Apr  6 10:30:44 | localhost.localdomain
+CPU_01 |*NetlistSetup  Elp=00:00:00 Cpu=00:00:00 Mem=82.7   | Apr  6 10:30:44 | localhost.localdomain
+CPU_01 |*Partition_part1 Elp=00:00:01 Cpu=00:00:00 Mem=238.2  | Apr  6 10:30:48 | localhost.localdomain
+CPU_01 |*PartitionPP   Elp=00:00:00 Cpu=00:00:00 Mem=76.2   | Apr  6 10:30:51 | localhost.localdomain
+CPU_01 |*xTract_part1  Elp=00:00:42 Cpu=00:00:41 Mem=212.8  | Apr  6 10:31:36 | localhost.localdomain
+CPU_01 |*xTractPP      Elp=00:00:00 Cpu=00:00:00 Mem=44.7   | Apr  6 10:31:39 | localhost.localdomain
+CPU_01 |*Netlist_part1 Elp=00:00:03 Cpu=00:00:03 Mem=127.7  | Apr  6 10:31:45 | localhost.localdomain
+------------------------------------------------------------------------------------------
+Maximum and average run time (Elp) for distributed stages: 
+    Partition  max=00:00:01 avg=00:00:01
+    xTract     max=00:00:42 avg=00:00:42
+    Netlist    max=00:00:03 avg=00:00:03
+------------------------------------------------------------------------------------------
+Start Time: Fri Apr  6 10:30:38 2018
+End Time:   Fri Apr  6 10:31:52 2018
+Total Wall Time: 00:01:14
+Time on PreXtraction:  00:00:16
+Time on Xtraction:     00:00:42
+Time on PostXtraction: 00:00:16
+------------------------------------------------------------------------------------------
+
+

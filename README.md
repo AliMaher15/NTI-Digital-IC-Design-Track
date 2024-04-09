@@ -1,6 +1,8 @@
-## Simple Microprocessor Design using VHDL
-modules: alu, accumelator, control unit, decoder, memories, mux, program counters
-### Schematic
-![schematic](https://github.com/AliMaher15/simple-microprocessor-vhdl/blob/main/doc/schematic.pdf)
-### testbench waveform
-![waveform](https://github.com/AliMaher15/simple-microprocessor-vhdl/blob/main/doc/vish_AcRkDfo2Wn.png)
+## Digital Egypt Youth - NTI 3 months - Digital IC Design Track
+### Module 1: Digital Design
+#### Verilog:
+![module 1 - Verilog](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/1-Verilog)
+#### VHDL:
+![module 1 - VHDL](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/2-VHDL)
+### Module 2: Physical Design
+![module 2 - Physical Design](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/3-PnR)

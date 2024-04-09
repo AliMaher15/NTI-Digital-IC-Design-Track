@@ -1,0 +1,31 @@
+guide_constraints -body { datamem } -equivalent { datamem/mem_access_addr[7]    datamem/IN0 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_access_addr[6]    datamem/IN1   datamem/IN2 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_access_addr[5]    datamem/IN3   datamem/IN4 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_access_addr[4]    datamem/IN5   datamem/IN6 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_access_addr[3]    datamem/IN7   datamem/IN8 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_access_addr[2]    datamem/IN9   datamem/IN10 }
+set_user_match   -inverted   $svf_ref/mips_16/JRControl_unit/JRControl   $svf_impl/mips_16/JRControl_unit/JRControl
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[6]    datamem/IN11 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[5]    datamem/IN12 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[4]    datamem/IN13 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[3]    datamem/IN14 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[2]    datamem/IN15 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[1]    datamem/IN16 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[0]    datamem/IN17 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[15]    datamem/IN18 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[14]    datamem/IN19 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[13]    datamem/IN20 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[12]    datamem/IN21 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[11]    datamem/IN22 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[10]    datamem/IN23 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[9]    datamem/IN24 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[8]    datamem/IN25 }
+guide_constraints -body { datamem } -equivalent { datamem/mem_write_data[7]    datamem/IN26 }
+set_user_match   -inverted   $svf_ref/mips_16/ALU_Control_unit/ALUOp[1]   $svf_impl/mips_16/ALU_Control_unit/ALUOp[1]
+guide_constraints -body { ALU_Control_unit } -equivalent { ALU_Control_unit/ALUOp[1]  ~ ALU_Control_unit/IN0 }
+set_user_match   -inverted   $svf_ref/mips_16/control_unit/mem_read   $svf_impl/mips_16/control_unit/mem_read
+set_user_match   -inverted   $svf_ref/mips_16/control_unit/reset   $svf_impl/mips_16/control_unit/reset
+guide_constraints -body { control_unit } -equivalent { control_unit/reset  ~ control_unit/IN1 }
+
+#-------------------------------------------------------------------
+

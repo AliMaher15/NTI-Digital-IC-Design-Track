@@ -1,0 +1,7 @@
+cd cmin 
+rm -rf rcxt.log mips_16_cmax_tm40.spef
+rmdir -rf star
+StarXtract xt.com | tee ../log/cmin.log
+cd ../cmax
+StarXtract xt.com | tee ../log/cmax.log
+cd ../

@@ -1,6 +1,0 @@
-vhdl work "rtl/ring_counter.vhd"
-vhdl work "rtl/mux.vhd"
-vhdl work "rtl/johnson_counter.vhd"
-vhdl work "rtl/bus_fsm.vhd"
-vhdl work "rtl/bcd_counter.vhd"
-vhdl work "counters_shared_bus.vhf"

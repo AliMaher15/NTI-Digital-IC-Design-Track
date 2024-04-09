@@ -1,0 +1,7 @@
+[Inputs]
+i_clk
+i_rst
+i_count_ena
+[Outputs]
+=o_bcd[3:0]=
+[BiDir]

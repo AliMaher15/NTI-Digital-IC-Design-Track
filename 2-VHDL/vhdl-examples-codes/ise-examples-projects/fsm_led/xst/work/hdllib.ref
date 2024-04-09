@@ -1,0 +1,4 @@
+EN johnson_leds NULL G:/ise_proj/prj2/sequence_led.vhd sub00/vhpl00 1709631413
+EN shifter NULL G:/ise_proj/prj2/sequence_led.vhd sub00/vhpl02 1709630516
+AR johnson_leds behavior1 G:/ise_proj/prj2/sequence_led.vhd sub00/vhpl01 1709631414
+AR shifter behavioral G:/ise_proj/prj2/sequence_led.vhd sub00/vhpl03 1709630517

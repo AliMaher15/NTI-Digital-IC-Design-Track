@@ -1,7 +1,0 @@
-[Inputs]
-i_clk
-i_rst
-=i_function[1:0]=
-[Outputs]
-=o_Sel2[1:0]=
-[BiDir]

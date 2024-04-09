@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "D:/ali_maher/vhdl/ise_projects/top_module_example_p/top_module_sch.xst" -ofn "D:/ali_maher/vhdl/ise_projects/top_module_example_p/top_module_sch.syr" 

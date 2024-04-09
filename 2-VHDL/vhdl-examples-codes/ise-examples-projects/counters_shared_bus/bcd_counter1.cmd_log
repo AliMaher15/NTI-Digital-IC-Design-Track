@@ -1,0 +1,2 @@
+vhdtdtfi -lib work rtl/bcd_counter.vhd -prj counters_shared_bus -o bcd_counter1.spl -module bcd_counter1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e bcd_counter1.spl D:/ali_maher/vhdl/ise_projects/counters_shared_bus/bcd_counter1.sym 

@@ -1,2 +1,0 @@
-vhdtdtfi -lib work rtl/ring_counter.vhd -prj counters_shared_bus -o ring_counter.spl -module ring_counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family spartan3e ring_counter.spl D:/ali_maher/vhdl/ise_projects/counters_shared_bus/ring_counter.sym 

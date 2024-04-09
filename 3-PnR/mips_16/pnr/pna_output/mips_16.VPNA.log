@@ -1,0 +1,43 @@
+
+Name of design : mips_16
+Number of cell instances in the design : 18810
+Number of cell instance masters in the library : 35
+
+Processing power net VSS ...
+Number of power net wires : 764
+Number of vias : 17064
+Average power dissipation in mips_16 :   500.00 mW
+Power supply voltage :     1.10 V
+Assigning vias begins
+Assigning power net wires ...
+Reading virtual power pads
+Extracting power net VSS ...
+Number of power pad nodes connecting to power net VSS : 30
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 30
+Number of resistors in VSS : 56222
+Number of nodes in VSS : 42607
+Performing network simulation
+Assigning netlists to simulation engine begins
+Assigning netlists to simulation engine finished
+Maximum IR drop in mips_16 : 6.06 mV
+Maximum current in mips_16 : 18.637 mA
+
+Processing power net VDD ...
+Number of power net wires : 1109
+Number of vias : 17609
+Average power dissipation in mips_16 :   500.00 mW
+Power supply voltage :     1.10 V
+Assigning vias begins
+Assigning power net wires ...
+Reading virtual power pads
+Extracting power net VDD ...
+Number of power pad nodes connecting to power net VDD : 30
+Number of power pad nodes reaching to the power ports of the leaf cells or blocks : 30
+Number of resistors in VDD : 61743
+Number of nodes in VDD : 45484
+Performing network simulation
+Assigning netlists to simulation engine begins
+Assigning netlists to simulation engine finished
+Maximum IR drop in mips_16 : 6.44 mV
+Maximum current in mips_16 : 20.499 mA
+Overall takes     0.88 seconds
