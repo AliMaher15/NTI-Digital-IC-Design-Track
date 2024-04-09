@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "F:/ise_proj/ali_shift_leds/fsm_led.xst" -ofn "F:/ise_proj/ali_shift_leds/fsm_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 fsm_led.ngc fsm_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o fsm_led_map.ncd fsm_led.ngd fsm_led.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_led_map.ncd fsm_led.ncd fsm_led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fsm_led.twx fsm_led.ncd -o fsm_led.twr fsm_led.pcf 
+xst -intstyle ise -ifn "F:/ise_proj/ali_shift_leds/fsm_led.xst" -ofn "F:/ise_proj/ali_shift_leds/fsm_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 fsm_led.ngc fsm_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o fsm_led_map.ncd fsm_led.ngd fsm_led.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_led_map.ncd fsm_led.ncd fsm_led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fsm_led.twx fsm_led.ncd -o fsm_led.twr fsm_led.pcf 
+xst -intstyle ise -ifn "F:/ise_proj/ali_shift_leds/fsm_led.xst" -ofn "F:/ise_proj/ali_shift_leds/fsm_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 fsm_led.ngc fsm_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o fsm_led_map.ncd fsm_led.ngd fsm_led.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_led_map.ncd fsm_led.ncd fsm_led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fsm_led.twx fsm_led.ncd -o fsm_led.twr fsm_led.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fsm_led.ucf -p xc3s500e-fg320-4 fsm_led.ngc fsm_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o fsm_led_map.ncd fsm_led.ngd fsm_led.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_led_map.ncd fsm_led.ncd fsm_led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml fsm_led.twx fsm_led.ncd -o fsm_led.twr fsm_led.pcf -ucf fsm_led.ucf 
+bitgen -intstyle ise -f fsm_led.ut fsm_led.ncd 
+xst -intstyle ise -ifn "F:/ise_proj/ali_shift_leds/fsm_led.xst" -ofn "F:/ise_proj/ali_shift_leds/fsm_led.syr" 
+xst -intstyle ise -ifn "F:/ise_proj/ali_shift_leds/fsm_led.xst" -ofn "F:/ise_proj/ali_shift_leds/fsm_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 fsm_led.ngc fsm_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o fsm_led_map.ncd fsm_led.ngd fsm_led.pcf 
+par -w -intstyle ise -ol high -t 1 fsm_led_map.ncd fsm_led.ncd fsm_led.pcf 
+xst -intstyle ise -ifn "F:/ise_proj/ali_shift_leds/fsm_led.xst" -ofn "F:/ise_proj/ali_shift_leds/fsm_led.syr" 

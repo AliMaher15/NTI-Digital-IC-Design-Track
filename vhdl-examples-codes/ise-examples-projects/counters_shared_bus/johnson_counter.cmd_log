@@ -1,0 +1,4 @@
+vhdtdtfi -lib work rtl/johnson_counter.vhd -prj counters_shared_bus -o johnson_counter.spl -module johnson_counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e johnson_counter.spl D:/ali_maher/vhdl/ise_projects/counters_shared_bus/johnson_counter.sym 
+vhdtdtfi -lib work rtl/johnson_counter.vhd -prj counters_shared_bus -o johnson_counter.spl -module johnson_counter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e johnson_counter.spl D:/ali_maher/vhdl/ise_projects/counters_shared_bus/johnson_counter.sym 

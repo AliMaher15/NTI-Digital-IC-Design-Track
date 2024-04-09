@@ -1,0 +1,12 @@
+EN johnson_counter NULL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd sub00/vhpl02 1710756412
+AR mux behavioral D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd sub00/vhpl09 1710756419
+EN bus_fsm NULL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd sub00/vhpl00 1710756410
+EN ring_counter NULL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd sub00/vhpl06 1710756416
+AR bcd_counter rtl D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd sub00/vhpl05 1710756415
+AR johnson_counter behavior1 D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd sub00/vhpl03 1710756413
+EN bcd_counter NULL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd sub00/vhpl04 1710756414
+AR counters_shared_bus behavioral D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf sub00/vhpl11 1710756421
+EN counters_shared_bus NULL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf sub00/vhpl10 1710756420
+AR bus_fsm behavior D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd sub00/vhpl01 1710756411
+AR ring_counter behavior1 D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd sub00/vhpl07 1710756417
+EN mux NULL D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd sub00/vhpl08 1710756418

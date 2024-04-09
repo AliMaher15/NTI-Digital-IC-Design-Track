@@ -1,0 +1,13 @@
+V3 7
+FL F:/ise_proj/ali_shift_leds/fsm_butterfly.vhd 2024/03/05.15:25:06 P.20131013
+EN work/fsm_led 1709645140 FL F:/ise_proj/ali_shift_leds/fsm_butterfly.vhd \
+      PB ieee/NUMERIC_STD 1381692181 PB ieee/std_logic_1164 1381692176
+AR work/fsm_led/behavior1 1709645141 \
+      FL F:/ise_proj/ali_shift_leds/fsm_butterfly.vhd EN work/fsm_led 1709645140
+FL F:/ise_proj/ali_shift_leds/fsm_led.vhd 2024/03/05.15:00:16 P.20131013
+FL G:/ise_proj/ali_shift_leds/leds_left_right.vhd 2024/03/05.13:23:38 P.20131013
+EN work/leds_left_right 1709637821 \
+      FL G:/ise_proj/ali_shift_leds/leds_left_right.vhd PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_1164 1381692176
+AR work/leds_left_right/behavior1 1709637822 \
+      FL G:/ise_proj/ali_shift_leds/leds_left_right.vhd EN work/leds_left_right 1709637821

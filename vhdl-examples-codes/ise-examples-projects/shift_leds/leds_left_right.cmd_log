@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "G:/ise_proj/ali_shift_leds/leds_left_right.xst" -ofn "G:/ise_proj/ali_shift_leds/leds_left_right.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 leds_left_right.ngc leds_left_right.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o leds_left_right_map.ncd leds_left_right.ngd leds_left_right.pcf 
+par -w -intstyle ise -ol high -t 1 leds_left_right_map.ncd leds_left_right.ncd leds_left_right.pcf 
+xst -intstyle ise -ifn "G:/ise_proj/ali_shift_leds/leds_left_right.xst" -ofn "G:/ise_proj/ali_shift_leds/leds_left_right.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 leds_left_right.ngc leds_left_right.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o leds_left_right_map.ncd leds_left_right.ngd leds_left_right.pcf 
+par -w -intstyle ise -ol high -t 1 leds_left_right_map.ncd leds_left_right.ncd leds_left_right.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml leds_left_right.twx leds_left_right.ncd -o leds_left_right.twr leds_left_right.pcf 
+bitgen -intstyle ise -f leds_left_right.ut leds_left_right.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc leds_left_right.ucf -p xc3s500e-fg320-4 leds_left_right.ngc leds_left_right.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o leds_left_right_map.ncd leds_left_right.ngd leds_left_right.pcf 
+par -w -intstyle ise -ol high -t 1 leds_left_right_map.ncd leds_left_right.ncd leds_left_right.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml leds_left_right.twx leds_left_right.ncd -o leds_left_right.twr leds_left_right.pcf -ucf leds_left_right.ucf 
+bitgen -intstyle ise -f leds_left_right.ut leds_left_right.ncd 
+xst -intstyle ise -ifn "G:/ise_proj/ali_shift_leds/leds_left_right.xst" -ofn "G:/ise_proj/ali_shift_leds/leds_left_right.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc leds_left_right.ucf -p xc3s500e-fg320-4 leds_left_right.ngc leds_left_right.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o leds_left_right_map.ncd leds_left_right.ngd leds_left_right.pcf 
+par -w -intstyle ise -ol high -t 1 leds_left_right_map.ncd leds_left_right.ncd leds_left_right.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml leds_left_right.twx leds_left_right.ncd -o leds_left_right.twr leds_left_right.pcf -ucf leds_left_right.ucf 
+bitgen -intstyle ise -f leds_left_right.ut leds_left_right.ncd 
+xst -intstyle ise -ifn "G:/ise_proj/ali_shift_leds/leds_left_right.xst" -ofn "G:/ise_proj/ali_shift_leds/leds_left_right.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc leds_left_right.ucf -p xc3s500e-fg320-4 leds_left_right.ngc leds_left_right.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o leds_left_right_map.ncd leds_left_right.ngd leds_left_right.pcf 
+par -w -intstyle ise -ol high -t 1 leds_left_right_map.ncd leds_left_right.ncd leds_left_right.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml leds_left_right.twx leds_left_right.ncd -o leds_left_right.twr leds_left_right.pcf -ucf leds_left_right.ucf 
+bitgen -intstyle ise -f leds_left_right.ut leds_left_right.ncd 

@@ -1,0 +1,4 @@
+EN leds_left_right NULL G:/ise_proj/ali_shift_leds/leds_left_right.vhd sub00/vhpl00 1709637821
+EN fsm_led NULL F:/ise_proj/ali_shift_leds/fsm_butterfly.vhd sub00/vhpl02 1709645140
+AR leds_left_right behavior1 G:/ise_proj/ali_shift_leds/leds_left_right.vhd sub00/vhpl01 1709637822
+AR fsm_led behavior1 F:/ise_proj/ali_shift_leds/fsm_butterfly.vhd sub00/vhpl03 1709645141

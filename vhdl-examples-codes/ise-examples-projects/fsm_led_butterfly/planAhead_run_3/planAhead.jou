@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Mar 05 15:29:09 2024
+# Process ID: 9356
+# Log file: F:/ise_proj/butter/planAhead_run_3/planAhead.log
+# Journal file: F:/ise_proj/butter/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/ise_proj/butter/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

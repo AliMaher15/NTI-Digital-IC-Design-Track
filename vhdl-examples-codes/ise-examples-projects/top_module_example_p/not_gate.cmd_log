@@ -1,0 +1,4 @@
+vhdtdtfi -lib work not_gate.vhd -lib work and_gate.vhd -prj top_module_example_p -o not_gate.spl -module not_gate -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e not_gate.spl D:/ali_maher/vhdl/ise_projects/top_module_example_p/not_gate.sym 
+vhdtdtfi -lib work not_gate.vhd -prj top_module_example_p -o not_gate.spl -module not_gate -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e not_gate.spl D:/ali_maher/vhdl/ise_projects/top_module_example_p/not_gate.sym 

@@ -1,0 +1,6 @@
+V3 3
+FL F:/ise_proj/ise_proj/blinking_counter.vhd 2024/03/05.09:59:02 P.20131013
+EN work/blinking_counter 1709625545 FL F:/ise_proj/ise_proj/blinking_counter.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/blinking_counter/behavior1 1709625546 \
+      FL F:/ise_proj/ise_proj/blinking_counter.vhd EN work/blinking_counter 1709625545

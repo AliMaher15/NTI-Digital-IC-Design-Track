@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.xst" -ofn "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.syr" 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\ise_proj\ali_shift_leds\leds_left_right.ncd
+OUTFILE=G:\ise_proj\ali_shift_leds\leds_left_right.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=G:\ise_proj\ali_shift_leds
+LICENSE=WebPack
+USER_INFO=176269043_0_0_329

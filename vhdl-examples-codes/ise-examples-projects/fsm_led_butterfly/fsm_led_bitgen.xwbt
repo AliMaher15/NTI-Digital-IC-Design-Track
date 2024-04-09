@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\ise_proj\butter\fsm_led.ncd
+OUTFILE=F:\ise_proj\butter\fsm_led.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=F:\ise_proj\butter
+LICENSE=WebPack
+USER_INFO=176269043_0_0_329

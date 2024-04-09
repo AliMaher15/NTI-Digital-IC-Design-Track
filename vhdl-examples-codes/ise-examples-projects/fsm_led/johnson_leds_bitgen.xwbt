@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\ise_proj\prj2\johnson_leds.ncd
+OUTFILE=G:\ise_proj\prj2\johnson_leds.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=G:\ise_proj\prj2
+LICENSE=WebPack
+USER_INFO=176269043_0_0_329

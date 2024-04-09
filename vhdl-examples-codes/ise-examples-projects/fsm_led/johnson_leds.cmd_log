@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -mt off johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc johnson_leds.ucf -p xc3s500e-fg320-4 johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -t 1 johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf -ucf johnson_leds.ucf 
+bitgen -intstyle ise -f johnson_leds.ut johnson_leds.ncd 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc johnson_leds.ucf -p xc3s500e-fg320-4 johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -t 1 johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf -ucf johnson_leds.ucf 
+bitgen -intstyle ise -f johnson_leds.ut johnson_leds.ncd 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc johnson_leds.ucf -p xc3s500e-fg320-4 johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -t 1 johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf -ucf johnson_leds.ucf 
+bitgen -intstyle ise -f johnson_leds.ut johnson_leds.ncd 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc johnson_leds.ucf -p xc3s500e-fg320-4 johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -t 1 johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf -ucf johnson_leds.ucf 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+xst -intstyle ise -ifn "G:/ise_proj/prj2/johnson_leds.xst" -ofn "G:/ise_proj/prj2/johnson_leds.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc johnson_leds.ucf -p xc3s500e-fg320-4 johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -t 1 johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf -ucf johnson_leds.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc johnson_leds.ucf -p xc3s500e-fg320-4 johnson_leds.ngc johnson_leds.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o johnson_leds_map.ncd johnson_leds.ngd johnson_leds.pcf 
+par -w -intstyle ise -ol high -t 1 johnson_leds_map.ncd johnson_leds.ncd johnson_leds.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml johnson_leds.twx johnson_leds.ncd -o johnson_leds.twr johnson_leds.pcf -ucf johnson_leds.ucf 
+bitgen -intstyle ise -f johnson_leds.ut johnson_leds.ncd 

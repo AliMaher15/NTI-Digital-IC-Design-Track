@@ -1,0 +1,527 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: counters_shared_bus.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "counters_shared_bus.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "counters_shared_bus"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : counters_shared_bus
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd" in Library work.
+Entity <bus_fsm> compiled.
+Entity <bus_fsm> (Architecture <behavior>) compiled.
+Compiling vhdl file "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd" in Library work.
+Entity <johnson_counter> compiled.
+Entity <johnson_counter> (Architecture <behavior1>) compiled.
+Compiling vhdl file "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd" in Library work.
+Entity <bcd_counter> compiled.
+Entity <bcd_counter> (Architecture <rtl>) compiled.
+Compiling vhdl file "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd" in Library work.
+Entity <ring_counter> compiled.
+Entity <ring_counter> (Architecture <behavior1>) compiled.
+Compiling vhdl file "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd" in Library work.
+Entity <mux> compiled.
+Entity <mux> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf" in Library work.
+Entity <counters_shared_bus> compiled.
+Entity <counters_shared_bus> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <counters_shared_bus> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <bus_fsm> in library <work> (architecture <behavior>).
+
+Analyzing hierarchy for entity <johnson_counter> in library <work> (architecture <behavior1>).
+
+Analyzing hierarchy for entity <bcd_counter> in library <work> (architecture <rtl>).
+
+Analyzing hierarchy for entity <ring_counter> in library <work> (architecture <behavior1>).
+
+Analyzing hierarchy for entity <mux> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <counters_shared_bus> in library <work> (Architecture <BEHAVIORAL>).
+Entity <counters_shared_bus> analyzed. Unit <counters_shared_bus> generated.
+
+Analyzing Entity <bus_fsm> in library <work> (Architecture <behavior>).
+WARNING:Xst:819 - "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd" line 58: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <i_function>
+Entity <bus_fsm> analyzed. Unit <bus_fsm> generated.
+
+Analyzing Entity <johnson_counter> in library <work> (Architecture <behavior1>).
+Entity <johnson_counter> analyzed. Unit <johnson_counter> generated.
+
+Analyzing Entity <bcd_counter> in library <work> (Architecture <rtl>).
+Entity <bcd_counter> analyzed. Unit <bcd_counter> generated.
+
+Analyzing Entity <ring_counter> in library <work> (Architecture <behavior1>).
+Entity <ring_counter> analyzed. Unit <ring_counter> generated.
+
+Analyzing Entity <mux> in library <work> (Architecture <Behavioral>).
+WARNING:Xst:819 - "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd" line 19: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <i_johnson>, <i_ring>, <i_bcd>
+Entity <mux> analyzed. Unit <mux> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <bus_fsm>.
+    Related source file is "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bus_fsm.vhd".
+INFO:Xst:2117 - HDL ADVISOR - Mux Selector <state> of Case statement line 0 was re-encoded using one-hot encoding. The case statement will be optimized (default statement optimization), but this optimization may lead to design initialization problems. To ensure the design works safely, you can:
+   	- add an 'INIT' attribute on signal <state> (optimization is then done without any risk)
+   	- use the attribute 'signal_encoding user' to avoid onehot optimization
+   	- use the attribute 'safe_implementation yes' to force XST to perform a safe (but less efficient) optimization
+    Using one-hot encoding for signal <state>.
+    Found 4x3-bit ROM for signal <next_state>.
+    Found 2-bit register for signal <o_Sel2>.
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit adder for signal <count$add0000> created at line 33.
+    Found 3-bit register for signal <state>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred   5 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <bus_fsm> synthesized.
+
+
+Synthesizing Unit <johnson_counter>.
+    Related source file is "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/johnson_counter.vhd".
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit adder for signal <count$addsub0000> created at line 23.
+    Found 4-bit register for signal <D>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <johnson_counter> synthesized.
+
+
+Synthesizing Unit <bcd_counter>.
+    Related source file is "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/bcd_counter.vhd".
+    Found 4-bit up counter for signal <r_count>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <bcd_counter> synthesized.
+
+
+Synthesizing Unit <ring_counter>.
+    Related source file is "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/ring_counter.vhd".
+    Found 32-bit up counter for signal <count>.
+    Found 32-bit adder for signal <count$addsub0000> created at line 23.
+    Found 4-bit register for signal <D>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <ring_counter> synthesized.
+
+
+Synthesizing Unit <mux>.
+    Related source file is "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/rtl/mux.vhd".
+    Found 4-bit 4-to-1 multiplexer for signal <o_out4>.
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <mux> synthesized.
+
+
+Synthesizing Unit <counters_shared_bus>.
+    Related source file is "D:/ali_maher/vhdl/ise_projects/counters_shared_bus/counters_shared_bus.vhf".
+Unit <counters_shared_bus> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x3-bit ROM                                           : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 3
+# Counters                                             : 4
+ 32-bit up counter                                     : 3
+ 4-bit up counter                                      : 1
+# Registers                                            : 10
+ 1-bit register                                        : 8
+ 2-bit register                                        : 1
+ 3-bit register                                        : 1
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:2677 - Node <state_0> of sequential type is unconnected in block <XLXI_1>.
+
+Synthesizing (advanced) Unit <bus_fsm>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_next_state> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <bus_fsm> synthesized (advanced).
+WARNING:Xst:2677 - Node <state_0> of sequential type is unconnected in block <bus_fsm>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 4x3-bit ROM                                           : 1
+# Adders/Subtractors                                   : 3
+ 32-bit adder                                          : 3
+# Counters                                             : 4
+ 32-bit up counter                                     : 3
+ 4-bit up counter                                      : 1
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Multiplexers                                         : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <counters_shared_bus> ...
+
+Optimizing unit <bus_fsm> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block counters_shared_bus, actual ratio is 3.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 112
+ Flip-Flops                                            : 112
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : counters_shared_bus.ngr
+Top Level Output File Name         : counters_shared_bus
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 8
+
+Cell Usage :
+# BELS                             : 705
+#      GND                         : 1
+#      INV                         : 9
+#      LUT1                        : 186
+#      LUT2                        : 67
+#      LUT3                        : 1
+#      LUT4                        : 34
+#      MUXCY                       : 210
+#      MUXF5                       : 4
+#      VCC                         : 1
+#      XORCY                       : 192
+# FlipFlops/Latches                : 112
+#      FDC                         : 68
+#      FDCE                        : 7
+#      FDPE                        : 1
+#      FDR                         : 32
+#      FDRE                        : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 7
+#      IBUF                        : 3
+#      OBUF                        : 4
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      173  out of   4656     3%  
+ Number of Slice Flip Flops:            112  out of   9312     1%  
+ Number of 4 input LUTs:                297  out of   9312     3%  
+ Number of IOs:                           8
+ Number of bonded IOBs:                   8  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+i_clk                              | BUFGP                  | 112   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------+------------------------+-------+
+Control Signal                             | Buffer(FF name)        | Load  |
+-------------------------------------------+------------------------+-------+
+XLXI_1/i_rst_inv(XLXI_2/i_rst_inv1_INV_0:O)| NONE(XLXI_2/D_0)       | 76    |
+-------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 10.349ns (Maximum Frequency: 96.626MHz)
+   Minimum input arrival time before clock: 4.717ns
+   Maximum output required time after clock: 6.240ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'i_clk'
+  Clock period: 10.349ns (frequency: 96.626MHz)
+  Total number of paths / destination ports: 58630 / 154
+-------------------------------------------------------------------------
+Delay:               10.349ns (Levels of Logic = 35)
+  Source:            XLXI_1/count_1 (FF)
+  Destination:       XLXI_1/count_31 (FF)
+  Source Clock:      i_clk rising
+  Destination Clock: i_clk rising
+
+  Data Path: XLXI_1/count_1 to XLXI_1/count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.591   0.622  XLXI_1/count_1 (XLXI_1/count_1)
+     LUT1:I0->O            1   0.704   0.000  XLXI_1/Madd_count_add0000_cy<1>_rt (XLXI_1/Madd_count_add0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_1/Madd_count_add0000_cy<1> (XLXI_1/Madd_count_add0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<2> (XLXI_1/Madd_count_add0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<3> (XLXI_1/Madd_count_add0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<4> (XLXI_1/Madd_count_add0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<5> (XLXI_1/Madd_count_add0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<6> (XLXI_1/Madd_count_add0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<7> (XLXI_1/Madd_count_add0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<8> (XLXI_1/Madd_count_add0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<9> (XLXI_1/Madd_count_add0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<10> (XLXI_1/Madd_count_add0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<11> (XLXI_1/Madd_count_add0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<12> (XLXI_1/Madd_count_add0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<13> (XLXI_1/Madd_count_add0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<14> (XLXI_1/Madd_count_add0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<15> (XLXI_1/Madd_count_add0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<16> (XLXI_1/Madd_count_add0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<17> (XLXI_1/Madd_count_add0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<18> (XLXI_1/Madd_count_add0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<19> (XLXI_1/Madd_count_add0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<20> (XLXI_1/Madd_count_add0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<21> (XLXI_1/Madd_count_add0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<22> (XLXI_1/Madd_count_add0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<23> (XLXI_1/Madd_count_add0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<24> (XLXI_1/Madd_count_add0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<25> (XLXI_1/Madd_count_add0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<26> (XLXI_1/Madd_count_add0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<27> (XLXI_1/Madd_count_add0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<28> (XLXI_1/Madd_count_add0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/Madd_count_add0000_cy<29> (XLXI_1/Madd_count_add0000_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_1/Madd_count_add0000_cy<30> (XLXI_1/Madd_count_add0000_cy<30>)
+     XORCY:CI->O           1   0.804   0.424  XLXI_1/Madd_count_add0000_xor<31> (XLXI_1/count_add0000<31>)
+     LUT4:I3->O            1   0.704   0.000  XLXI_1/state_cmp_eq0000_wg_lut<7> (XLXI_1/state_cmp_eq0000_wg_lut<7>)
+     MUXCY:S->O            5   0.736   0.712  XLXI_1/state_cmp_eq0000_wg_cy<7> (XLXI_1/state_cmp_eq0000)
+     LUT2:I1->O           32   0.704   1.262  XLXI_1/count_or00001 (XLXI_1/count_or0000)
+     FDR:R                     0.911          XLXI_1/count_0
+    ----------------------------------------
+    Total                     10.349ns (7.329ns logic, 3.020ns route)
+                                       (70.8% logic, 29.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'i_clk'
+  Total number of paths / destination ports: 40 / 38
+-------------------------------------------------------------------------
+Offset:              4.717ns (Levels of Logic = 2)
+  Source:            i_rst (PAD)
+  Destination:       XLXI_1/count_31 (FF)
+  Destination Clock: i_clk rising
+
+  Data Path: i_rst to XLXI_1/count_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  i_rst_IBUF (i_rst_IBUF)
+     LUT2:I0->O           32   0.704   1.262  XLXI_1/count_or00001 (XLXI_1/count_or0000)
+     FDR:R                     0.911          XLXI_1/count_0
+    ----------------------------------------
+    Total                      4.717ns (2.833ns logic, 1.884ns route)
+                                       (60.1% logic, 39.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'i_clk'
+  Total number of paths / destination ports: 36 / 4
+-------------------------------------------------------------------------
+Offset:              6.240ns (Levels of Logic = 3)
+  Source:            XLXI_1/o_Sel2_1 (FF)
+  Destination:       out_count<3> (PAD)
+  Source Clock:      i_clk rising
+
+  Data Path: XLXI_1/o_Sel2_1 to out_count<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             8   0.591   0.932  XLXI_1/o_Sel2_1 (XLXI_1/o_Sel2_1)
+     LUT4:I0->O            1   0.704   0.000  XLXI_5/Mmux_o_out49_G (N19)
+     MUXF5:I1->O           1   0.321   0.420  XLXI_5/Mmux_o_out49 (out_count_2_OBUF)
+     OBUF:I->O                 3.272          out_count_2_OBUF (out_count<2>)
+    ----------------------------------------
+    Total                      6.240ns (4.888ns logic, 1.352ns route)
+                                       (78.3% logic, 21.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.03 secs
+ 
+--> 
+
+Total memory usage is 4516036 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+
