@@ -11,7 +11,8 @@
 ![cg_results](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/4_Verification/doc/vish_w0rRypRYbu.png)
 
 ##### Code Coverage:
-![code_cvg](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/4_Verification/doc/sublime_text_BCY0CEl5Ha.png)
+![code_cvg](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/4_Verification/doc/Code_bFH7emJM4e.png) \
+![reason](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/4_Verification/doc/Code_7ZnuecODAD.png)
 
 ##### Tests:
 ![sequence](https://github.com/AliMaher15/NTI-Digital-IC-Design-Track/blob/main/4_Verification/doc/Code_QePTGMOfzJ.png) \
