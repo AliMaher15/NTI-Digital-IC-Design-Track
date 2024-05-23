@@ -1,0 +1,167 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dF:/memory_tb
+T_opt
+!s110 1716470877
+VGGzZMSimnS?878aQ]of]G0
+Z2 04 6 4 work tb_top fast 0
+=1-98fa9b0fdbb6-664f445b-126-1e48
+Z3 !s102 +cover
+Z4 !s124 OEM100
+Z5 o-quiet -auto_acc_if_foreign -work work +cover
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2021.1;73
+T_opt1
+!s110 1716469890
+V1@^WUK7h26ez6=?n^VJ=Q2
+R2
+=1-98fa9b0fdbb6-664f4080-2b0-2c74
+R4
+o-quiet -auto_acc_if_foreign -work work
+R6
+n@_opt1
+R7
+R1
+T_opt2
+!s110 1716380942
+V<VdMZIP_D>eAf4N6SA`3Y1
+R2
+=1-c4e984f69b65-664de50d-12e-2f50
+R3
+R4
+R5
+R6
+n@_opt2
+R7
+R1
+vmemory_16x32
+Z8 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z9 !s110 1716470851
+!i10b 1
+!s100 m[b986dS2fc_i8Mld6NL;1
+I5E<OI7a2X_H5EhT^jWdnd3
+S1
+Z10 dD:/Ali/Courses/NTI/3_verification/memory_tb
+w1714820671
+8memory.sv
+Fmemory.sv
+!i122 61
+L0 1 36
+Z11 VDg1SIo80bB@j0V0VzS_@n1
+Z12 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z13 !s108 1716470851.000000
+Z14 !s107 tb_classes/test.svh|tb_classes/env.svh|tb_classes/coverage.svh|tb_classes/scoreboard.svh|tb_classes/agent.svh|tb_classes/sequencer.svh|tb_classes/monitor.svh|tb_classes/driver.svh|tb_classes/my_sequence.svh|tb_classes/seq_item.svh|tb_classes.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|C:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|memory_intf.sv|memory.sv|tb_top.sv|
+Z15 !s90 tb_top.sv|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+Ymemory_intf
+R8
+R9
+!i10b 1
+!s100 jfKLMM7Y58R083]g7CZ4]3
+IG@gR4o6F4l;KEV4@;ekM60
+S1
+R10
+w1714820806
+8memory_intf.sv
+Fmemory_intf.sv
+!i122 61
+L0 1 0
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6
+vtb_top
+R8
+DXx6 mtiUvm 7 uvm_pkg 0 22 8V[`8]Q0W57le7Z>zYaAj1
+R9
+!i10b 1
+!s100 mEAo];c0Wbh<Dzgb1@Wh90
+Ii]35MCgJaN]HPza;f]VaE2
+S1
+R10
+w1716470849
+8tb_top.sv
+Ftb_top.sv
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh
+FC:/questasim64_2021.1/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh
+Ftb_classes.svh
+Ftb_classes/seq_item.svh
+Ftb_classes/my_sequence.svh
+Ftb_classes/driver.svh
+Ftb_classes/monitor.svh
+Ftb_classes/sequencer.svh
+Ftb_classes/agent.svh
+Ftb_classes/scoreboard.svh
+Ftb_classes/coverage.svh
+Ftb_classes/env.svh
+Ftb_classes/test.svh
+!i122 61
+L0 5 6977
+R11
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 0
+R16
+R6

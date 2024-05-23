@@ -1,0 +1,96 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_top/dut
+=== Design Unit: work.memory_16x32
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         3         3         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_top/dut
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File memory.sv
+------------------------------------IF Branch------------------------------------
+    23                                       996     Count coming in to IF
+    23              1                          1     
+    27              1                        499     
+    31              1                        496     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       2         1         1    50.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_top/dut --
+
+  File memory.sv
+----------------Focused Condition View-------------------
+Line       27 Item    1  (en && (addr < 16))
+Condition totals: 1 of 2 input terms covered = 50.00%
+
+   Input Term   Covered  Reason for no coverage   Hint
+  -----------  --------  -----------------------  --------------
+           en         Y
+  (addr < 16)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  en_0                  -                             
+  Row   2:          1  en_1                  (addr < 16)                   
+  Row   3:    ***0***  (addr < 16)_0         en                            
+  Row   4:          1  (addr < 16)_1         en                            
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      10        10         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_top/dut --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File memory.sv
+    16              1                          1     
+    17              1                          1     
+    22              1                        996     
+    24              1                          1     
+    25              1                          1     
+    26              1                          1     
+    28              1                        499     
+    29              1                        499     
+    30              1                        499     
+    32              1                        496     
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         66        66         0   100.00%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_top/dut --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+
+Total Node Count     =         33 
+Toggled Node Count   =         33 
+Untoggled Node Count =          0 
+
+Toggle Coverage      =     100.00% (66 of 66 bins)
+
+
+Total Coverage By Instance (filtered view): 87.50%
+

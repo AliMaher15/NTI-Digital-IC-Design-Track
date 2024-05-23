@@ -1,0 +1,144 @@
+# End time: 16:27:54 on May 23,2024, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 1
+# vsim tb_top -c -coverage -assertdebug -voptargs="+cover" 
+# Start time: 16:27:54 on May 23,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-13408) Code coverage will be disabled for some DUs/packages/classes and source files.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.tb_top(fast)
+# Loading work.memory_intf(fast)
+# Loading C:/questasim64_2021.1/uvm-1.1d\win64\uvm_dpi.dll
+# 1
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO tb_classes/test.svh(13) @ 0: uvm_test_top [test] Build phase of Test
+# UVM_INFO tb_classes/env.svh(15) @ 0: uvm_test_top.env0 [env] Build phase of ENV
+# UVM_INFO tb_classes/agent.svh(18) @ 0: uvm_test_top.env0.agent0 [agent] Build phase of Agent
+# UVM_INFO tb_classes/driver.svh(12) @ 0: uvm_test_top.env0.agent0.drv0 [driver] Build phase of Driver
+# UVM_INFO tb_classes/monitor.svh(18) @ 0: uvm_test_top.env0.agent0.mon0 [monitor] Build phase of Monitor
+# UVM_INFO tb_classes/agent.svh(31) @ 0: uvm_test_top.env0.agent0 [agent] Build phase of Agent
+# UVM_INFO tb_classes/scoreboard.svh(46) @ 0: uvm_test_top.env0.sb0 [scoreboard] Connect phase of Scoreboard
+# UVM_INFO tb_classes/env.svh(29) @ 0: uvm_test_top.env0 [env] Build phase of ENV
+# UVM_INFO tb_classes/test.svh(33) @ 0: uvm_test_top [test] Start of Simulation phase of Test
+# ------------------------------------------------------------------
+# Name                       Type                        Size  Value
+# ------------------------------------------------------------------
+# uvm_test_top               test                        -     @471 
+#   env0                     env                         -     @481 
+#     agent0                 agent                       -     @491 
+#       drv0                 driver                      -     @650 
+#         rsp_port           uvm_analysis_port           -     @665 
+#         seq_item_port      uvm_seq_item_pull_port      -     @657 
+#       in_port              uvm_analysis_port           -     @498 
+#       mon0                 monitor                     -     @673 
+#         in_port            uvm_analysis_port           -     @680 
+#         out_port           uvm_analysis_port           -     @688 
+#       out_port             uvm_analysis_port           -     @506 
+#       seqr0                sequencer                   -     @696 
+#         rsp_export         uvm_analysis_export         -     @703 
+#         seq_item_export    uvm_seq_item_pull_imp       -     @797 
+#         arbitration_queue  array                       0     -    
+#         lock_queue         array                       0     -    
+#         num_last_reqs      integral                    32    'd1  
+#         num_last_rsps      integral                    32    'd1  
+#     cvg0                   coverage                    -     @631 
+#       analysis_imp         uvm_analysis_imp            -     @638 
+#     sb0                    scoreboard                  -     @514 
+#       in_fifo              uvm_tlm_analysis_fifo #(T)  -     @537 
+#         analysis_export    uvm_analysis_imp            -     @576 
+#         get_ap             uvm_analysis_port           -     @568 
+#         get_peek_export    uvm_get_peek_imp            -     @552 
+#         put_ap             uvm_analysis_port           -     @560 
+#         put_export         uvm_put_imp                 -     @544 
+#       in_imp               uvm_analysis_export         -     @521 
+#       out_fifo             uvm_tlm_analysis_fifo #(T)  -     @584 
+#         analysis_export    uvm_analysis_imp            -     @623 
+#         get_ap             uvm_analysis_port           -     @615 
+#         get_peek_export    uvm_get_peek_imp            -     @599 
+#         put_ap             uvm_analysis_port           -     @607 
+#         put_export         uvm_put_imp                 -     @591 
+#       out_imp              uvm_analysis_export         -     @529 
+# ------------------------------------------------------------------
+# 
+#### Factory Configuration (*)
+# 
+#   No instance or type overrides are registered with this factory
+# 
+# All types registered with the factory: 48 total
+# (types without type names will not be printed)
+# 
+#   Type Name
+#   ---------
+#   agent
+#   coverage
+#   driver
+#   env
+#   monitor
+#   my_sequence
+#   questa_uvm_recorder
+#   scoreboard
+#   seq_item
+#   sequencer
+#   test
+# (*) Types with no associated type name will be printed as <unknown>
+# 
+####
+# 
+# UVM_INFO tb_classes/test.svh(23) @ 0: uvm_test_top [test] Run phase of Test
+# UVM_INFO tb_classes/scoreboard.svh(55) @ 0: uvm_test_top.env0.sb0 [scoreboard] Run phase of Scoreboard
+# UVM_INFO tb_classes/monitor.svh(25) @ 0: uvm_test_top.env0.agent0.mon0 [monitor] Run phase of Monitor
+# UVM_INFO tb_classes/driver.svh(19) @ 0: uvm_test_top.env0.agent0.drv0 [driver] Run phase of Driver
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 10010: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 10010: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO tb_classes/scoreboard.svh(119) @ 10010: uvm_test_top.env0.sb0 [scoreboard] 
+# 
+# 
+# *** TEST PASSED - 1000 vectors ran, 1000 vectors passed ***
+# 
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   19
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     2
+# [agent]     2
+# [driver]     2
+# [env]     2
+# [monitor]     2
+# [scoreboard]     3
+# [test]     3
+# ** Note: $finish    : C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 10010 ns  Iteration: 68  Instance: /tb_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# Stopped at C:/questasim64_2021.1/win64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
